@@ -1,0 +1,9 @@
+Prashnik's laptop performance check
+
+1. Record host Windows version, VirtualBox version, available RAM and disk space, VM RAM/vCPU allocation, and Task Manager CPU/memory/disk usage while the VM is slow. Preserve the VirtualBox VM log.
+2. Run msinfo32 on the Windows host and check whether it says a hypervisor is detected and whether Virtualization-based Security is running. This diagnoses a possible Hyper-V/VBS interaction; the statement supplied so far is only a hypothesis.
+3. Close other heavy applications and stop the VMs before changing settings. Ensure the host retains enough RAM for Windows. Check whether the VM performs normally with just Metasploitable running, then with Kali added.
+4. If Hyper-V/VBS is confirmed as the cause, follow Microsoft guidance with the laptop owner or administrator before disabling any security feature. Disabling Memory Integrity or Credential Guard changes host protection. Restart and compare performance after any approved change.
+5. If the machine still freezes, do not force an exploit run. Preserve the logs and send the observed error/performance details to the team and professor. The existing reconnaissance and host correlation can be demonstrated while the later stage remains incomplete.
+
+Official Microsoft guidance: https://learn.microsoft.com/en-gb/troubleshoot/windows-client/application-management/virtualization-apps-not-work-with-hyper-v

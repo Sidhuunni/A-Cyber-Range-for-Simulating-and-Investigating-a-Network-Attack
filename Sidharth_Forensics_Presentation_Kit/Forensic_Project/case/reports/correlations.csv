@@ -1,0 +1,11 @@
+event_id,direction,packet_count,first_utc,last_utc,capture_sha256,example_input_row,basis
+8,forward,1318,2026-10-05T19:22:38.721677Z,2026-10-05T19:22:50.825259Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,11,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+8,reverse,1233,2026-10-05T19:22:38.722487Z,2026-10-05T19:22:50.825249Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,15,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+12,forward,7,2026-10-05T19:22:38.730124Z,2026-10-05T19:22:39.182916Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,58,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+12,reverse,5,2026-10-05T19:22:38.730461Z,2026-10-05T19:22:39.182903Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,60,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+13,forward,7,2026-10-05T19:22:38.729377Z,2026-10-05T19:22:39.135592Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,52,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+13,reverse,4,2026-10-05T19:22:38.729655Z,2026-10-05T19:22:39.135580Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,54,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+14,forward,7,2026-10-05T19:22:38.726067Z,2026-10-05T19:22:39.201638Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,34,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+14,reverse,4,2026-10-05T19:22:38.727193Z,2026-10-05T19:22:39.201623Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,38,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+11,forward,44,2026-10-05T19:22:38.729083Z,2026-10-05T19:22:50.825259Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,51,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+11,reverse,41,2026-10-05T19:22:38.729655Z,2026-10-05T19:22:50.825249Z,6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25,53,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.

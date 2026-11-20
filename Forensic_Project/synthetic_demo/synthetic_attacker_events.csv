@@ -1,0 +1,3 @@
+timestamp,source,host,event_type,description,src_ip,dst_ip,src_port,dst_port,pid,path,sha256,evidence_ref
+2026-11-02T12:00:00Z,attacker,DEMO workstation .11,SIMULATED_ssh_rule_test,SIMULATED scenario intent: generate 31 initial TCP connections to port 22; no credential attempt or result represented,192.168.56.11,192.168.56.21,,22,,,,provenance.json synthetic scenario 1
+2026-11-02T12:00:20Z,attacker,DEMO target .21,SIMULATED_transfer_rule_test,SIMULATED scenario intent: send benign labelled payload to demo listener 4444; no stolen file represented,192.168.56.21,192.168.56.11,,4444,,,,provenance.json synthetic scenario 2

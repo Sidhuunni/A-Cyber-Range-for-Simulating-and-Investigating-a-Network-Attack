@@ -1,0 +1,7 @@
+id,path,sha256,size,registered_utc,collector,note
+1,..\synthetic_packets.db,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,20480,2026-11-02T13:56:46.447068Z,Sidharth U,Network source; PCAP frame or database row tracked
+2,..\synthetic_attacker_events.csv,e1ddf63241b1ed053a2a35ee3ce4739d675e0073404adcaf1620d7c95f3e35b3,630,2026-11-02T13:56:46.592244Z,Sidharth U,Normalized findings CSV; original artifact must also be registered
+3,..\synthetic_host_events.csv,fb8a08d83f1608498d41b59d86f4f21697a1c7910520f152267a32d7aed5c28f,853,2026-11-02T13:56:46.593866Z,Sidharth U,Normalized findings CSV; original artifact must also be registered
+4,..\DEMO_SYNTHETIC_append_only.pcap,642a2ef5c60d7e4afa7ce05a52f4e70f2e0b4c19acaf610428437088ba39cac0,55370,2026-11-02T13:56:46.595316Z,Sidharth U,Supporting original evidence; see team handoff
+5,..\provenance.json,20d19a57b242b46fde3b2e12c900c18ce15ac2f82e060510f736b9a141624c46,3958,2026-11-02T13:56:46.596194Z,Sidharth U,Supporting original evidence; see team handoff
+6,..\reconstructed_demo_payload.bin,def00065c7f3ce2efadccbcb598539934fe561a0234e01eed697a49b1e7c7413,45056,2026-11-02T13:56:46.609809Z,Sidharth U,Supporting original evidence; see team handoff

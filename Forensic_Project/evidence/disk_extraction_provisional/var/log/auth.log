@@ -1,0 +1,44 @@
+Oct  5 14:53:23 metasploitable sshd[4081]: Server listening on :: port 22.
+Oct  5 14:53:23 metasploitable sshd[4081]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Oct  5 14:53:58 metasploitable login[4603]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Oct  5 14:54:19 metasploitable sshd[4081]: Received SIGHUP; restarting.
+Oct  5 14:54:19 metasploitable sshd[4730]: Server listening on :: port 22.
+Oct  5 14:54:19 metasploitable sshd[4730]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Oct  5 14:56:27 metasploitable sudo: msfadmin : TTY=tty1 ; PWD=/home/msfadmin ; USER=root ; COMMAND=/sbin/ifconfig eth0 192.168.56.20 netmask 255.255.255.sudo ifconfig eth0 192.168.56.20 netmask 255.255.255.0 up
+Oct  5 14:56:27 metasploitable sudo: pam_unix(sudo:session): session opened for user root by msfadmin(uid=0)
+Oct  5 14:56:27 metasploitable sudo: pam_unix(sudo:session): session closed for user root
+Oct  5 14:57:36 metasploitable sudo: msfadmin : TTY=tty1 ; PWD=/home/msfadmin ; USER=root ; COMMAND=/sbin/ifconfig eth0 192.168.56.20/24 up
+Oct  5 14:57:36 metasploitable sudo: pam_unix(sudo:session): session opened for user root by msfadmin(uid=0)
+Oct  5 14:57:36 metasploitable sudo: pam_unix(sudo:session): session closed for user root
+Oct  5 15:02:01 metasploitable CRON[4770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  5 15:02:01 metasploitable CRON[4770]: pam_unix(cron:session): session closed for user root
+Oct  5 15:09:01 metasploitable CRON[4796]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  5 15:09:01 metasploitable CRON[4796]: pam_unix(cron:session): session closed for user root
+Oct  5 15:17:01 metasploitable CRON[4829]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  5 15:17:01 metasploitable CRON[4829]: pam_unix(cron:session): session closed for user root
+Oct  5 15:22:38 metasploitable sshd[4847]: Did not receive identification string from 192.168.56.10
+Oct  5 15:22:45 metasploitable rlogind[4856]: Connection from 192.168.56.10 on illegal port
+Oct  5 15:22:45 metasploitable rlogind[4875]: Connection from 192.168.56.10 on illegal port
+Oct  5 15:39:01 metasploitable CRON[4927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  5 15:39:01 metasploitable CRON[4927]: pam_unix(cron:session): session closed for user root
+Oct  6 01:27:39 metasploitable sshd[4078]: Server listening on :: port 22.
+Oct  6 01:27:39 metasploitable sshd[4078]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Oct  6 01:28:24 metasploitable login[4606]: pam_unix(login:session): session opened for user msfadmin by LOGIN(uid=0)
+Oct  6 01:28:40 metasploitable sshd[4078]: Received SIGHUP; restarting.
+Oct  6 01:28:40 metasploitable sshd[4727]: Server listening on :: port 22.
+Oct  6 01:28:40 metasploitable sshd[4727]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Oct  6 01:30:36 metasploitable sudo: msfadmin : TTY=tty1 ; PWD=/home/msfadmin ; USER=root ; COMMAND=/sbin/ifconfig eth0 192.168.56.20/24 up
+Oct  6 01:30:36 metasploitable sudo: pam_unix(sudo:session): session opened for user root by msfadmin(uid=0)
+Oct  6 01:30:36 metasploitable sudo: pam_unix(sudo:session): session closed for user root
+Oct  6 01:39:01 metasploitable CRON[4767]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 01:39:01 metasploitable CRON[4767]: pam_unix(cron:session): session closed for user root
+Oct  6 02:09:01 metasploitable CRON[4828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 02:09:01 metasploitable CRON[4828]: pam_unix(cron:session): session closed for user root
+Oct  6 02:17:01 metasploitable CRON[4856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 02:17:01 metasploitable CRON[4856]: pam_unix(cron:session): session closed for user root
+Oct  6 02:39:01 metasploitable CRON[4893]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 02:39:01 metasploitable CRON[4893]: pam_unix(cron:session): session closed for user root
+Oct  6 03:09:01 metasploitable CRON[4952]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct  6 03:09:01 metasploitable CRON[4952]: pam_unix(cron:session): session closed for user root
+Oct 11 03:56:00 metasploitable sshd[4083]: Server listening on :: port 22.
+Oct 11 03:56:00 metasploitable sshd[4083]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.

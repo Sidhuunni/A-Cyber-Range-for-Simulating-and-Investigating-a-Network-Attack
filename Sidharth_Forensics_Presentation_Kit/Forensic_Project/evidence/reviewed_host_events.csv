@@ -1,0 +1,4 @@
+timestamp,source,host,event_type,description,src_ip,dst_ip,src_port,dst_port,pid,path,sha256,evidence_ref
+,host,metasploitable,web_probe_string,"Recovered Apache error string dated 5 October 2026 with client 192.168.56.10 and Nmap check path; log timezone unverified",192.168.56.10,192.168.56.20,,,,/var/www/nmaplowercheck1791228170,,"metasploitable_ram.elf; memory_excerpts.csv; apache_nmap_probe; byte offset 905631810"
+,host,metasploitable,smtp_probe_string,"Recovered Postfix connection string for 192.168.56.10 dated 5 October 2026; log timezone unverified",192.168.56.10,192.168.56.20,,,,,,"metasploitable_ram.elf; memory_excerpts.csv; postfix_probe"
+,host,metasploitable,later_log_string,"Recovered Samba nmbd string dated 11 October 2026; memory capture time and relationship to 6 October attack unresolved",,192.168.56.20,,,,,,"metasploitable_ram.elf; memory_excerpts.csv; samba_oct11"

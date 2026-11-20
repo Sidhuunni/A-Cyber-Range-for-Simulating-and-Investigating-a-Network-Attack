@@ -1,0 +1,11 @@
+SIDHARTH FORENSICS — LIVE PRESENTATION KIT
+
+1. Open PRESENTATION_SCRIPT_AND_VIVA_GUIDE.md for the exact speaking script and file-by-file order.
+2. Open Professor_Presentation.html in a browser. It works offline.
+3. Follow the guide to open the real case report, source logs, memory excerpts, manifests, and synthetic demo.
+
+This small kit includes the forensic code, saved reports, PCAP, extracted logs, and evidence files.
+It omits only the two large raw source images. They remain in Sidharth_Forensics_Show_Tomorrow.zip.
+The VMDK source in that ZIP is an incomplete download, not a final disk acquisition.
+The real findings establish reconnaissance; the later SSH/transfer demo is synthetic.
+Do not run the full evidence verifier from this kit because the two raw images are absent.

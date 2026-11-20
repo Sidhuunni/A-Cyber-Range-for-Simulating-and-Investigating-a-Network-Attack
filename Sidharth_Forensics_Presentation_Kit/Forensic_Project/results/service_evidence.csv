@@ -1,0 +1,8 @@
+port,operator_reported_service,syn_ack_observed,example_syn_ack_frame,banner_frame,raw_packet_excerpt
+21,vsftpd 2.3.4,True,60,2142,220 (vsFTPd 2.3.4)
+22,OpenSSH 4.7p1,True,54,2124,SSH-2.0-OpenSSH_4.7p1 Debian-8ubuntu1
+23,Linux telnetd,True,16,2121,#  '
+80,Apache 2.2.8; DVWA/Mutillidae claimed,True,53,2280,"HTTP/1.1 200 OK  Date: Mon, 05 Oct 2026 19:22:45 GMT  Server: Apache/2.2.8 (Ubuntu) DAV/2  X-Powered-By: PHP/5.2.4-2ubuntu5.10  Connection: close  Content-Type: text/html    <html>"
+139,Samba 3.X–4.X,True,40,2309,a SMBr      @              @         2    A                   T        F `j0+ W O R K G R O U P
+445,Samba 3.X–4.X,True,72,2195,"a SMBr      @              @         2    A                   T        ,s j BvW O R K G R O U P"
+6667,UnrealIRCd,True,681,2158,:irc.Metasploitable.LAN NOTICE AUTH :*** Looking up your hostname...  :irc.Metasploitable.LAN NOTICE AUTH :*** Couldn't resolve your hostname; using your IP address instead

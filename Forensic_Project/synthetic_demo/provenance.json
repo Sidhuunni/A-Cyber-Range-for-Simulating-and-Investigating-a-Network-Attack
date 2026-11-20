@@ -1,0 +1,93 @@
+{
+  "dataset_label": "MIXED DEMO - ORIGINAL RECON PLUS GENERATED TRAFFIC",
+  "warning": "Frames after the real boundary are synthetic teaching data. Do not present them as Prashnik's observed attack or as evidence of compromise.",
+  "real_capture_file": "lab_recon_capture.pcapng",
+  "real_capture_sha256": "6ecd14cb06b1a7038e4c9eed535d55ba6192a5097f38677859d1f6aa1755fb25",
+  "real_frame_count": 2570,
+  "real_ip_packet_count": 2568,
+  "real_frame_range_1_based": [
+    1,
+    2570
+  ],
+  "real_first_utc": "2026-10-05T19:17:24.729+00:00",
+  "real_last_utc": "2026-10-05T19:25:10.304+00:00",
+  "real_packet_content_sha256": "4ffcf78225d3cb2751f7b7fa3c2bd9e188352454f02aa3a87bc665411b5cc541",
+  "real_prefix_content_sha256_in_mixed": "4ffcf78225d3cb2751f7b7fa3c2bd9e188352454f02aa3a87bc665411b5cc541",
+  "real_timestamps_max_error_seconds": 7.152557373046875e-07,
+  "hybrid_capture_file": "DEMO_MIXED_real_recon_plus_synthetic.pcap",
+  "hybrid_capture_sha256": "3ba995a689d197693e15cf8da35a2c059a0862f9f1d28244823ac5dc1591f142",
+  "hybrid_frame_count": 2717,
+  "synthetic_only_file": "DEMO_SYNTHETIC_append_only.pcap",
+  "synthetic_only_sha256": "642a2ef5c60d7e4afa7ce05a52f4e70f2e0b4c19acaf610428437088ba39cac0",
+  "synthetic_frame_count": 147,
+  "synthetic_frame_range_1_based": [
+    2571,
+    2717
+  ],
+  "synthetic_first_epoch": 1793620800.0,
+  "synthetic_first_utc": "2026-11-02T12:00:00.000+00:00",
+  "synthetic_last_utc": "2026-11-02T12:00:22.230+00:00",
+  "synthetic_time_gap_intentional": true,
+  "synthetic_time_gap_explanation": "The generated traffic is dated 2 November, separately from the real 5 October capture, to prevent treating this as one incident.",
+  "synthetic_endpoints": {
+    "demo_attacker": "192.168.56.11",
+    "demo_target": "192.168.56.21",
+    "receiver": "192.168.56.11:4444"
+  },
+  "synthetic_scenarios": [
+    {
+      "name": "Repeated SSH connection requests",
+      "frame_range_1_based": [
+        2571,
+        2663
+      ],
+      "frame_count": 93,
+      "initial_syn_count": 31,
+      "src": "192.168.56.11",
+      "dst": "192.168.56.21",
+      "dst_port": 22,
+      "first_utc": "2026-11-02T12:00:00.000+00:00",
+      "last_utc": "2026-11-02T12:00:05.450+00:00",
+      "meaning": "Synthetic TCP connection requests only; no passwords or successful login are represented."
+    },
+    {
+      "name": "Labelled TCP transfer to demo listener",
+      "frame_range_1_based": [
+        2664,
+        2717
+      ],
+      "frame_count": 54,
+      "tcp_payload_bytes": 45056,
+      "src": "192.168.56.21",
+      "dst": "192.168.56.11",
+      "dst_port": 4444,
+      "first_utc": "2026-11-02T12:00:20.000+00:00",
+      "last_utc": "2026-11-02T12:00:22.230+00:00",
+      "meaning": "Synthetic benign payload beginning with EXFIL marker; no real file is included."
+    }
+  ],
+  "generator_command_workspace": "python generate_hybrid_demo.py --source ../../lab_recon_capture.pcapng",
+  "generator_command_package": "python generate_hybrid_demo.py --source ../evidence/lab_recon_capture.pcapng",
+  "analyzer_command_workspace": "python ../../person2-network-analysis/analyze.py DEMO_MIXED_real_recon_plus_synthetic.pcap --receiver-ip 192.168.56.11 --write-traffic",
+  "analyzer_command_package": "python ../network_analysis/analyze.py DEMO_MIXED_real_recon_plus_synthetic.pcap --receiver-ip 192.168.56.11 --write-traffic",
+  "alert_provenance": [
+    {
+      "type": "Port scan",
+      "src": "192.168.56.10",
+      "dst": "192.168.56.20",
+      "origin": "real reconnaissance frames 1-2570"
+    },
+    {
+      "type": "SSH brute force",
+      "src": "192.168.56.11",
+      "dst": "192.168.56.21",
+      "origin": "synthetic repeated connection requests"
+    },
+    {
+      "type": "Large flow / possible exfil",
+      "src": "192.168.56.21",
+      "dst": "192.168.56.11",
+      "origin": "synthetic labelled TCP transfer"
+    }
+  ]
+}

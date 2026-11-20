@@ -1,0 +1,4 @@
+timestamp,source,host,event_type,description,src_ip,dst_ip,src_port,dst_port,pid,path,sha256,evidence_ref
+2026-10-06T00:52:00+05:30,attacker,kali,nmap_reported,"Attacker document reports Nmap scan; minute precision; this stage is consistent with the supplied reconnaissance PCAP",192.168.56.10,192.168.56.20,,,,,,"attacker_deliverables.docx; Item 6 section 1"
+,attacker,kali,hydra_reported,"Attacker document reports 16 SSH attempts and one credential success; no original output or matching capture supplied",192.168.56.10,192.168.56.20,,22,,,,"attacker_deliverables.docx; Item 6 section 2"
+2026-10-06T01:10:14+05:30,attacker,kali,metasploit_reported,"Attacker document reports vsftpd root shell on port 6200; supplied PCAP ended earlier",192.168.56.10,192.168.56.20,,6200,,,,"attacker_deliverables.docx; Item 6 section 3"

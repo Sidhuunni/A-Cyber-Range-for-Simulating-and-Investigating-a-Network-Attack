@@ -1,0 +1,9 @@
+source_path,status,inode,size,mtime_unix,sha256,output_path,error
+/var/log/auth.log,extracted,66075,4500,1791705360,283f8d575ed915b57c13898ebebe2c9fa387480b12397fc8e46693be0b759658,evidence\disk_extraction_provisional\var\log\auth.log,
+/var/log/syslog,extracted,66078,164307,1791705387,daeaa06b7af63e2db031cd1c2bd38bd0863a675f3387c760acb967de8b37cb99,evidence\disk_extraction_provisional\var\log\syslog,
+/var/log/vsftpd.log,extracted,66074,759,1791228158,fd07a5fe338ed590c5d808fc618081f1284bae066ca3a08749043c9e4c0d013a,evidence\disk_extraction_provisional\var\log\vsftpd.log,
+/var/log/apache2/access.log,extracted,66105,2315,1791228170,f765ee303d0e4905a3ff0c152076ced8eaff3b284cd4c20d67631f2c6d2bd86e,evidence\disk_extraction_provisional\var\log\apache2\access.log,
+/var/log/apache2/error.log,extracted,67582,785,1791705366,69e3bf9c94634689fc35ee1952044f844121ed80ad8716b339a6c81833179095,evidence\disk_extraction_provisional\var\log\apache2\error.log,
+/etc/inetd.conf,extracted,140178,529,1337540534,3e143b4a1dea8924312f61c16de498710d6f4780b0e00c033c9e7f45685f219f,evidence\disk_extraction_provisional\etc\inetd.conf,
+/etc/timezone,extracted,140157,11,1268780481,d9a84eeb6ad835123661d0ed63a2758f129bb502a8cc82851f12b28fd8a4204f,evidence\disk_extraction_provisional\etc\timezone,
+/var/www/twiki/bin/system_test.sh,unavailable,,,,,,/var/www/twiki/bin/system_test.sh

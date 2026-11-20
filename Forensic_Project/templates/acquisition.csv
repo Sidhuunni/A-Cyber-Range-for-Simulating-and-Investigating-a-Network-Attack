@@ -1,0 +1,1 @@
+evidence_id,hostname,ip,os_build,vm_snapshot,acquisition_start_utc,acquisition_end_utc,tool_version,image_type,original_path,sha256,collector,clock_offset_seconds,notes

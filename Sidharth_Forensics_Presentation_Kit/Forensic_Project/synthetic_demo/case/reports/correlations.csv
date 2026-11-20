@@ -1,0 +1,9 @@
+event_id,direction,packet_count,first_utc,last_utc,capture_sha256,example_input_row,basis
+1,forward,62,2026-11-02T12:00:00Z,2026-11-02T12:00:05.450000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,1,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+1,reverse,31,2026-11-02T12:00:00.025000Z,2026-11-02T12:00:05.425000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,2,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+3,forward,62,2026-11-02T12:00:00Z,2026-11-02T12:00:05.450000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,1,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+3,reverse,31,2026-11-02T12:00:00.025000Z,2026-11-02T12:00:05.425000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,2,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+2,forward,47,2026-11-02T12:00:20Z,2026-11-02T12:00:22.200000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,94,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+2,reverse,7,2026-11-02T12:00:20.025000Z,2026-11-02T12:00:22.230000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,95,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+4,forward,47,2026-11-02T12:00:20Z,2026-11-02T12:00:22.200000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,94,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.
+4,reverse,7,2026-11-02T12:00:20.025000Z,2026-11-02T12:00:22.230000Z,c3c103cb7c6d2832485b366104eb5f03dcf508eb5d5f15a4add0f6f722591d50,95,Endpoint/time candidate within +/-60s; validate clock offset and artifact meaning.

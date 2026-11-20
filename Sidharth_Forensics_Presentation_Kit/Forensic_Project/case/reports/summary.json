@@ -1,0 +1,17 @@
+{
+  "case": "Metasploitable2 reconnaissance investigation",
+  "mode": "REAL",
+  "packets": 2568,
+  "host_findings": 7,
+  "attacker_notes": 7,
+  "network_hypotheses": 2,
+  "candidate_links": 10,
+  "missing": [
+    "Completed Metasploitable VMDK and sender-side SHA-256 still required; current .crdownload has missing grains",
+    "No full-run PCAP covering the claimed SSH authentication, port 6200 shell, or port 4444 transfer",
+    "Hydra text supplied on 1 November contains a startup line only; actual attempts and result are unavailable",
+    "Attacker documents give conflicting run times; stages cannot be merged without a confirmed run ID and clock map",
+    "No actual transferred file or Windows disk/RAM was supplied; those outcomes remain unverified",
+    "2 November synthetic artifact summary is a narrative only: referenced raw capture/logs/files are absent, and its claimed 1248-byte files use the SHA-256 hash of an empty file"
+  ]
+}

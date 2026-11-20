@@ -1,0 +1,3 @@
+SYNTHETIC DEMO ONLY — constructed teaching log, not recovered from a VM
+2026-11-02T12:00:00Z DEMO-target-192.168.56.21 ssh-service: generated scenario contains repeated TCP connection requests from 192.168.56.11; no password result is represented.
+2026-11-02T12:00:20Z DEMO-receiver-192.168.56.11 transfer-service: generated scenario contains 45056 benign payload bytes from 192.168.56.21 to port 4444; payload reconstructed from DEMO_SYNTHETIC_append_only.pcap; SHA-256 def00065c7f3ce2efadccbcb598539934fe561a0234e01eed697a49b1e7c7413.

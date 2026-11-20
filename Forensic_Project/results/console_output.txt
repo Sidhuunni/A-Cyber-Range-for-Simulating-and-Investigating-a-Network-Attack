@@ -1,0 +1,60 @@
+ACTUAL EXECUTION RESULTS
+{
+  "scope": "Linux reconnaissance only",
+  "attacker": "192.168.56.10",
+  "target": "192.168.56.20",
+  "total_frames": 2570,
+  "ip_packets": 2568,
+  "first_utc": "2026-10-05T19:17:24.729288Z",
+  "last_utc": "2026-10-05T19:25:10.304217Z",
+  "syn_packets_to_target": 1054,
+  "distinct_syn_ports": 1000,
+  "ssh_syn_packets": 2,
+  "ports_with_target_syn_ack": [
+    21,
+    22,
+    23,
+    25,
+    53,
+    80,
+    111,
+    139,
+    445,
+    512,
+    513,
+    514,
+    1099,
+    1524,
+    2049,
+    2121,
+    3306,
+    5432,
+    5900,
+    6000,
+    6667,
+    8009,
+    8180
+  ],
+  "protocol_counts": {
+    "UDP": 15,
+    "ARP": 2,
+    "TCP": 2553
+  },
+  "rst_packets_by_source": {
+    "192.168.56.20": 980,
+    "192.168.56.10": 30
+  },
+  "large_flow_review": {
+    "packets": 1000,
+    "tcp_payload_bytes": 0,
+    "rst_packets": 977,
+    "syn_ack_packets": 23
+  },
+  "missing": [
+    "Target VMDK and complete disk chain",
+    "metasploitable_ram.elf",
+    "Raw Nmap output with timestamps",
+    "Host logs and acquisition records"
+  ],
+  "conclusion": "Capture supports broad TCP port probing, consistent with the reported reconnaissance. Exploitation, password compromise, persistence, malware deployment and file theft are not established by the supplied evidence."
+}

@@ -1,0 +1,2 @@
+# Only for PCAP ingestion; CSV and SQLite use standard library.
+dpkt==1.9.8

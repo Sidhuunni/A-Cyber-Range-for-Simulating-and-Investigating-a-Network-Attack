@@ -1,0 +1,1 @@
+# Hydra v9.7 run at 2026-11-01 05:16:20 on 192.168.56.20 ssh (hydra -l msfadmin -p msfadmin -t 4 -V -o /home/kali/Desktop/hydra_output.txt 192.168.56.20 ssh)

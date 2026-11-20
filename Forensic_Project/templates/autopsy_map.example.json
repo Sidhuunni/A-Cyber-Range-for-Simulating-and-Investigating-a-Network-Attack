@@ -1,0 +1,13 @@
+{
+  "columns": {
+    "timestamp": "Timestamp UTC",
+    "description": "Description",
+    "path": "File Path"
+  },
+  "constants": {
+    "source": "host",
+    "host": "REPLACE_WITH_WINDOWS_IP",
+    "event_type": "disk_artifact",
+    "evidence_ref": "Autopsy export; specify image ID and timestamp meaning"
+  }
+}

@@ -1,0 +1,1520 @@
+Oct  5 14:53:23 metasploitable syslogd 1.5.0#1ubuntu1: restart.
+Oct  5 14:53:23 metasploitable kernel: Inspecting /boot/System.map-2.6.24-16-server
+Oct  5 14:53:23 metasploitable kernel: Loaded 28738 symbols from /boot/System.map-2.6.24-16-server.
+Oct  5 14:53:23 metasploitable kernel: Symbols match kernel version 2.6.24.
+Oct  5 14:53:23 metasploitable kernel: Loaded 15470 symbols from 60 modules.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Linux version 2.6.24-16-server (buildd@palmer) (gcc version 4.2.3 (Ubuntu 4.2.3-2ubuntu7)) #1 SMP Thu Apr 10 13:58:00 UTC 2008 (Ubuntu 2.6.24-16.30-server)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 000000003fff0000 (usable)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 000000003fff0000 - 0000000040000000 (ACPI data)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fec00000 - 00000000fec01000 (reserved)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fee00000 - 00000000fee01000 (reserved)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] 127MB HIGHMEM available.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] 896MB LOWMEM available.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] found SMP MP-table at 0009fbf0
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Entering add_active_range(0, 0, 262128) 0 entries of 256 used
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Zone PFN ranges:
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   DMA             0 ->     4096
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   Normal       4096 ->   229376
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   HighMem    229376 ->   262128
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Movable zone start PFN for each node
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] early_node_map[1] active PFN ranges
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]     0:        0 ->   262128
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] On node 0 totalpages: 262128
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   DMA zone: 0 pages reserved
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   Normal zone: 1760 pages used for memmap
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   Normal zone: 223520 pages, LIFO batch:31
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   HighMem zone: 255 pages used for memmap
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   HighMem zone: 32497 pages, LIFO batch:7
+Oct  5 14:53:23 metasploitable kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] DMI 2.5 present.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: RSDP signature @ 0xC00E0000 checksum 0
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: RSDP 000E0000, 0024 (r2 VBOX  )
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: XSDT 3FFF0030, 003C (r1 VBOX   VBOXXSDT        1 ASL        61)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: FACP 3FFF00F0, 00F4 (r4 VBOX   VBOXFACP        1 ASL        61)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: DSDT 3FFF02E0, 2353 (r2 VBOX   VBOXBIOS        2 VBOX    2AC32)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: FACS 3FFF0200, 0040
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: APIC 3FFF0240, 0054 (r2 VBOX   VBOXAPIC        1 ASL        61)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: SSDT 3FFF02A0, 0038 (r1 VBOX   VBOXCPUT        2 VBOX    2AC32)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Processor #0 14:10 APIC version 20
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: IRQ2 used by override.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Allocating PCI resources starting at 50000000 (gap: 40000000:bec00000)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 000000000009f000 - 00000000000a0000
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 00000000000a0000 - 00000000000f0000
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 00000000000f0000 - 0000000000100000
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 260081
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Kernel command line: root=/dev/mapper/metasploitable-root ro quiet splash
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] mapped IOAPIC to ffffa000 (fec00000)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Enabling fast FPU save and restore... done.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Enabling unmasked SIMD FPU exception support... done.
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Initializing CPU#0
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] PID hash table entries: 4096 (order: 12, 16384 bytes)
+Oct  5 14:53:23 metasploitable kernel: [    0.000000] Detected 2994.417 MHz processor.
+Oct  5 14:53:23 metasploitable kernel: [    5.458226] Console: colour VGA+ 80x25
+Oct  5 14:53:23 metasploitable kernel: [    5.458230] console [tty0] enabled
+Oct  5 14:53:23 metasploitable kernel: [    5.460321] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct  5 14:53:23 metasploitable kernel: [    5.461488] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct  5 14:53:23 metasploitable kernel: [    5.471069] Memory: 1026828k/1048512k available (2255k kernel code, 21028k reserved, 1032k data, 384k init, 131008k highmem)
+Oct  5 14:53:23 metasploitable kernel: [    5.471074] virtual kernel memory layout:
+Oct  5 14:53:23 metasploitable kernel: [    5.471075]     fixmap  : 0xfff4c000 - 0xfffff000   ( 716 kB)
+Oct  5 14:53:23 metasploitable kernel: [    5.471076]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Oct  5 14:53:23 metasploitable kernel: [    5.471076]     vmalloc : 0xf8800000 - 0xffbfe000   ( 115 MB)
+Oct  5 14:53:23 metasploitable kernel: [    5.471077]     lowmem  : 0xc0000000 - 0xf8000000   ( 896 MB)
+Oct  5 14:53:23 metasploitable kernel: [    5.471077]       .init : 0xc043c000 - 0xc049c000   ( 384 kB)
+Oct  5 14:53:23 metasploitable kernel: [    5.471077]       .data : 0xc0333e95 - 0xc0435fe4   (1032 kB)
+Oct  5 14:53:23 metasploitable kernel: [    5.471078]       .text : 0xc0100000 - 0xc0333e95   (2255 kB)
+Oct  5 14:53:23 metasploitable kernel: [    5.471079] Checking if this processor honours the WP bit even in supervisor mode... Ok.
+Oct  5 14:53:23 metasploitable kernel: [    5.471172] SLUB: Genslabs=11, HWalign=64, Order=0-1, MinObjects=4, CPUs=1, Nodes=1
+Oct  5 14:53:23 metasploitable kernel: [    5.633060] Calibrating delay using timer specific routine.. 6501.18 BogoMIPS (lpj=32505935)
+Oct  5 14:53:23 metasploitable kernel: [    5.633163] Security Framework initialized
+Oct  5 14:53:23 metasploitable kernel: [    5.633166] SELinux:  Disabled at boot.
+Oct  5 14:53:23 metasploitable kernel: [    5.633208] AppArmor: AppArmor initialized
+Oct  5 14:53:23 metasploitable kernel: [    5.633211] Failure registering capabilities with primary security module.
+Oct  5 14:53:23 metasploitable kernel: [    5.633217] Mount-cache hash table entries: 512
+Oct  5 14:53:23 metasploitable kernel: [    5.633502] Initializing cgroup subsys ns
+Oct  5 14:53:23 metasploitable kernel: [    5.633505] Initializing cgroup subsys cpuacct
+Oct  5 14:53:23 metasploitable kernel: [    5.633901] CPU: After generic identify, caps: 178bfbff 28100000 00000000 00000000 f6da3203 00000000 00000121 00000000
+Oct  5 14:53:23 metasploitable kernel: [    5.634182] CPU: L1 I cache: 64K, L1 D cache: 32K
+Oct  5 14:53:23 metasploitable kernel: [    5.634184] CPU: L2 cache: 2048K
+Oct  5 14:53:23 metasploitable kernel: [    5.634185] CPU: L3 cache: 24576K
+Oct  5 14:53:23 metasploitable kernel: [    5.634288] CPU: Hyper-Threading is disabled
+Oct  5 14:53:23 metasploitable kernel: [    5.634290] CPU: After all inits, caps: 178bfbff 28100000 00000000 00000140 f6da3203 00000000 00000121 00000000
+Oct  5 14:53:23 metasploitable kernel: [    5.634317] Compat vDSO mapped to ffffe000.
+Oct  5 14:53:23 metasploitable kernel: [    5.634424] Checking 'hlt' instruction... OK.
+Oct  5 14:53:23 metasploitable kernel: [    5.713131] SMP alternatives: switching to UP code
+Oct  5 14:53:23 metasploitable kernel: [    5.897246] Freeing SMP alternatives: 12k freed
+Oct  5 14:53:23 metasploitable kernel: [    5.897442] Early unpacking initramfs... done
+Oct  5 14:53:23 metasploitable kernel: [    6.490853] ACPI: Core revision 20070126
+Oct  5 14:53:23 metasploitable kernel: [    6.490954] ACPI: Looking for DSDT in initramfs... error, file /DSDT.aml not found.
+Oct  5 14:53:23 metasploitable kernel: [    6.491650] CPU0: Intel(R) Core(TM) Ultra 7 155H stepping 04
+Oct  5 14:53:23 metasploitable kernel: [    6.503179] Total of 1 processors activated (6501.18 BogoMIPS).
+Oct  5 14:53:23 metasploitable kernel: [    6.518030] ENABLING IO-APIC IRQs
+Oct  5 14:53:23 metasploitable kernel: [    6.521208] ..TIMER: vector=0x31 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct  5 14:53:23 metasploitable kernel: [    6.735327] APIC calibration not consistent with PM Timer: 101ms instead of 100ms
+Oct  5 14:53:23 metasploitable kernel: [    6.735330] APIC delta adjusted to PM-Timer: 5992210 (6102126)
+Oct  5 14:53:23 metasploitable kernel: [    6.735923] Brought up 1 CPUs
+Oct  5 14:53:23 metasploitable kernel: [    6.737126] CPU0 attaching sched-domain:
+Oct  5 14:53:23 metasploitable kernel: [    6.737130]  domain 0: span 01
+Oct  5 14:53:23 metasploitable kernel: [    6.737131]   groups: 01
+Oct  5 14:53:23 metasploitable kernel: [    6.737394] net_namespace: 64 bytes
+Oct  5 14:53:23 metasploitable kernel: [    6.737401] Booting paravirtualized kernel on bare hardware
+Oct  5 14:53:23 metasploitable kernel: [    6.738341] Time: 18:53:06  Date: 10/05/26
+Oct  5 14:53:23 metasploitable kernel: [    6.738380] NET: Registered protocol family 16
+Oct  5 14:53:23 metasploitable kernel: [    6.738952] EISA bus registered
+Oct  5 14:53:23 metasploitable kernel: [    6.739089] ACPI: bus type pci registered
+Oct  5 14:53:23 metasploitable kernel: [    6.740073] PCI: PCI BIOS revision 2.10 entry at 0xfda56, last bus=0
+Oct  5 14:53:23 metasploitable kernel: [    6.740075] PCI: Using configuration type 1
+Oct  5 14:53:23 metasploitable kernel: [    6.740077] Setting up standard PCI resources
+Oct  5 14:53:23 metasploitable kernel: [    6.744507] ACPI: EC: Look up EC in DSDT
+Oct  5 14:53:23 metasploitable kernel: [    6.753226] ACPI: Interpreter enabled
+Oct  5 14:53:23 metasploitable kernel: [    6.753230] ACPI: (supports S0 S1 S4 S5)
+Oct  5 14:53:23 metasploitable kernel: [    6.753237] ACPI: Using IOAPIC for interrupt routing
+Oct  5 14:53:23 metasploitable kernel: [    6.758082] ACPI: PCI Root Bridge [PCI0] (0000:00)
+Oct  5 14:53:23 metasploitable kernel: [    6.774622] PCI quirk: region 4000-403f claimed by PIIX4 ACPI
+Oct  5 14:53:23 metasploitable kernel: [    6.774660] PCI quirk: region 4100-410f claimed by PIIX4 SMB
+Oct  5 14:53:23 metasploitable kernel: [    6.781438] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Oct  5 14:53:23 metasploitable kernel: [    6.795162] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct  5 14:53:23 metasploitable kernel: [    6.795623] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Oct  5 14:53:23 metasploitable kernel: [    6.795780] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Oct  5 14:53:23 metasploitable kernel: [    6.795954] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Oct  5 14:53:23 metasploitable kernel: [    6.796089] Linux Plug and Play Support v0.97 (c) Adam Belay
+Oct  5 14:53:23 metasploitable kernel: [    6.796166] pnp: PnP ACPI init
+Oct  5 14:53:23 metasploitable kernel: [    6.796172] ACPI: bus type pnp registered
+Oct  5 14:53:23 metasploitable kernel: [    6.798656] pnp: PnP ACPI: found 4 devices
+Oct  5 14:53:23 metasploitable kernel: [    6.798658] ACPI: ACPI bus type pnp unregistered
+Oct  5 14:53:23 metasploitable kernel: [    6.798662] PnPBIOS: Disabled by ACPI PNP
+Oct  5 14:53:23 metasploitable kernel: [    6.798834] PCI: Using ACPI for IRQ routing
+Oct  5 14:53:23 metasploitable kernel: [    6.798836] PCI: If a device doesn't work, try "pci=routeirq".  If it helps, post a report
+Oct  5 14:53:23 metasploitable kernel: [    6.841732] NET: Registered protocol family 8
+Oct  5 14:53:23 metasploitable kernel: [    6.841735] NET: Registered protocol family 20
+Oct  5 14:53:23 metasploitable kernel: [    6.841789] NetLabel: Initializing
+Oct  5 14:53:23 metasploitable kernel: [    6.841790] NetLabel:  domain hash size = 128
+Oct  5 14:53:23 metasploitable kernel: [    6.841791] NetLabel:  protocols = UNLABELED CIPSOv4
+Oct  5 14:53:23 metasploitable kernel: [    6.841799] NetLabel:  unlabeled traffic allowed by default
+Oct  5 14:53:23 metasploitable kernel: [    6.841887] AppArmor: AppArmor Filesystem Enabled
+Oct  5 14:53:23 metasploitable kernel: [    6.851055] Time: tsc clocksource has been installed.
+Oct  5 14:53:23 metasploitable kernel: [    6.900602] NET: Registered protocol family 2
+Oct  5 14:53:23 metasploitable kernel: [    6.994368] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct  5 14:53:23 metasploitable kernel: [    6.994899] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct  5 14:53:23 metasploitable kernel: [    6.998963] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+Oct  5 14:53:23 metasploitable kernel: [    7.000828] TCP: Hash tables configured (established 131072 bind 65536)
+Oct  5 14:53:23 metasploitable kernel: [    7.000830] TCP reno registered
+Oct  5 14:53:23 metasploitable kernel: [    7.023658] checking if image is initramfs... it is
+Oct  5 14:53:23 metasploitable kernel: [    7.733735] Switched to high resolution mode on CPU 0
+Oct  5 14:53:23 metasploitable kernel: [    7.898390] Clocksource tsc unstable (delta = -318645345 ns)
+Oct  5 14:53:23 metasploitable kernel: [    7.908686] Time: acpi_pm clocksource has been installed.
+Oct  5 14:53:23 metasploitable kernel: [    7.934321] Freeing initrd memory: 7743k freed
+Oct  5 14:53:23 metasploitable kernel: [    7.935684] audit: initializing netlink socket (disabled)
+Oct  5 14:53:23 metasploitable kernel: [    7.935692] audit(1791226387.141:1): initialized
+Oct  5 14:53:23 metasploitable kernel: [    7.935989] highmem bounce pool size: 64 pages
+Oct  5 14:53:23 metasploitable kernel: [    7.935991] Total HugeTLB memory allocated, 0
+Oct  5 14:53:23 metasploitable kernel: [    7.940319] VFS: Disk quotas dquot_6.5.1
+Oct  5 14:53:23 metasploitable kernel: [    7.940488] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct  5 14:53:23 metasploitable kernel: [    7.940888] io scheduler noop registered
+Oct  5 14:53:23 metasploitable kernel: [    7.940890] io scheduler anticipatory registered
+Oct  5 14:53:23 metasploitable kernel: [    7.940891] io scheduler deadline registered (default)
+Oct  5 14:53:23 metasploitable kernel: [    7.940898] io scheduler cfq registered
+Oct  5 14:53:23 metasploitable kernel: [    7.940921] Limiting direct PCI/PCI transfers.
+Oct  5 14:53:23 metasploitable kernel: [    7.940973] Activating ISA DMA hang workarounds.
+Oct  5 14:53:23 metasploitable kernel: [    7.941014] Boot video device is 0000:00:02.0
+Oct  5 14:53:23 metasploitable kernel: [    7.942329] isapnp: Scanning for PnP cards...
+Oct  5 14:53:23 metasploitable kernel: [    8.420331] isapnp: No Plug & Play device found
+Oct  5 14:53:23 metasploitable kernel: [    8.453956] Real Time Clock Driver v1.12ac
+Oct  5 14:53:23 metasploitable kernel: [    8.454050] Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing enabled
+Oct  5 14:53:23 metasploitable kernel: [    8.455815] RAMDISK driver initialized: 16 RAM disks of 65536K size 1024 blocksize
+Oct  5 14:53:23 metasploitable kernel: [    8.455878] input: Macintosh mouse button emulation as /devices/virtual/input/input0
+Oct  5 14:53:23 metasploitable kernel: [    8.455971] PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct  5 14:53:23 metasploitable kernel: [    8.458461] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct  5 14:53:23 metasploitable kernel: [    8.458465] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct  5 14:53:23 metasploitable kernel: [    8.461883] mice: PS/2 mouse device common for all mice
+Oct  5 14:53:23 metasploitable kernel: [    8.464680] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Oct  5 14:53:23 metasploitable kernel: [    8.464691] EISA: Probing bus 0 at eisa.0
+Oct  5 14:53:23 metasploitable kernel: [    8.464844] Cannot allocate resource for EISA slot 4
+Oct  5 14:53:23 metasploitable kernel: [    8.464992] EISA: Detected 0 cards.
+Oct  5 14:53:23 metasploitable kernel: [    8.464994] cpuidle: using governor ladder
+Oct  5 14:53:23 metasploitable kernel: [    8.464995] cpuidle: using governor menu
+Oct  5 14:53:23 metasploitable kernel: [    8.465045] NET: Registered protocol family 1
+Oct  5 14:53:23 metasploitable kernel: [    8.465062] Using IPI No-Shortcut mode
+Oct  5 14:53:23 metasploitable kernel: [    8.465080] registered taskstats version 1
+Oct  5 14:53:23 metasploitable kernel: [    8.465242]   Magic number: 14:648:897
+Oct  5 14:53:23 metasploitable kernel: [    8.465272]   hash matches device ptyy7
+Oct  5 14:53:23 metasploitable kernel: [    8.465276]   hash matches device ptyva
+Oct  5 14:53:23 metasploitable kernel: [    8.465293] BIOS EDD facility v0.16 2004-Jun-25, 6 devices found
+Oct  5 14:53:23 metasploitable kernel: [    8.465652] Freeing unused kernel memory: 384k freed
+Oct  5 14:53:23 metasploitable kernel: [    8.688299] fuse init (API version 7.9)
+Oct  5 14:53:23 metasploitable kernel: [    8.715085] device-mapper: uevent: version 1.0.3
+Oct  5 14:53:23 metasploitable kernel: [    8.715136] device-mapper: ioctl: 4.12.0-ioctl (2007-10-02) initialised: dm-devel@redhat.com
+Oct  5 14:53:23 metasploitable kernel: [    8.904343] SCSI subsystem initialized
+Oct  5 14:53:23 metasploitable kernel: [    8.923255] libata version 3.00 loaded.
+Oct  5 14:53:23 metasploitable kernel: [    8.935914] ata_piix 0000:00:01.1: version 2.12
+Oct  5 14:53:23 metasploitable kernel: [    8.936162] PCI: Setting latency timer of device 0000:00:01.1 to 64
+Oct  5 14:53:23 metasploitable kernel: [    8.941592] scsi0 : ata_piix
+Oct  5 14:53:23 metasploitable kernel: [    8.946625] scsi1 : ata_piix
+Oct  5 14:53:23 metasploitable kernel: [    8.946657] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct  5 14:53:23 metasploitable kernel: [    8.946659] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct  5 14:53:23 metasploitable kernel: [    8.984490] Intel(R) PRO/1000 Network Driver - version 7.3.20-k2-NAPI
+Oct  5 14:53:23 metasploitable kernel: [    8.984493] Copyright (c) 1999-2006 Intel Corporation.
+Oct  5 14:53:23 metasploitable kernel: [    9.014497] usbcore: registered new interface driver usbfs
+Oct  5 14:53:23 metasploitable kernel: [    9.014512] usbcore: registered new interface driver hub
+Oct  5 14:53:23 metasploitable kernel: [    9.019763] usbcore: registered new device driver usb
+Oct  5 14:53:23 metasploitable kernel: [    9.025374] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct  5 14:53:23 metasploitable kernel: [    9.260492] ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct  5 14:53:23 metasploitable kernel: [    9.260514] ata1.01: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct  5 14:53:23 metasploitable kernel: [    9.260516] ata1.01: 16777216 sectors, multi 128: LBA 
+Oct  5 14:53:23 metasploitable kernel: [    9.420483] ata1.00: configured for UDMA/33
+Oct  5 14:53:23 metasploitable kernel: [    9.421937] ata1.01: configured for UDMA/33
+Oct  5 14:53:23 metasploitable kernel: [    9.610026] scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct  5 14:53:23 metasploitable kernel: [    9.610303] scsi 0:0:1:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct  5 14:53:23 metasploitable kernel: [    9.610862] ACPI: PCI Interrupt 0000:00:03.0[A] -> GSI 19 (level, low) -> IRQ 16
+Oct  5 14:53:23 metasploitable kernel: [    9.610971] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Oct  5 14:53:23 metasploitable kernel: [   10.273043] e1000: 0000:00:03.0: e1000_probe: (PCI:33MHz:32-bit) 08:00:27:67:af:36
+Oct  5 14:53:23 metasploitable kernel: [   10.353274] e1000: eth0: e1000_probe: Intel(R) PRO/1000 Network Connection
+Oct  5 14:53:23 metasploitable kernel: [   10.353571] ahci 0000:00:0d.0: version 3.0
+Oct  5 14:53:23 metasploitable kernel: [   10.353991] ACPI: PCI Interrupt 0000:00:0d.0[A] -> GSI 21 (level, low) -> IRQ 17
+Oct  5 14:53:23 metasploitable kernel: [   11.355735] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct  5 14:53:23 metasploitable kernel: [   11.355738] ahci 0000:00:0d.0: flags: 64bit ncq stag only 
+Oct  5 14:53:23 metasploitable kernel: [   11.355811] PCI: Setting latency timer of device 0000:00:0d.0 to 64
+Oct  5 14:53:23 metasploitable kernel: [   11.356594] scsi2 : ahci
+Oct  5 14:53:23 metasploitable kernel: [   11.356648] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 17
+Oct  5 14:53:23 metasploitable kernel: [   11.683113] ata3: SATA link down (SStatus 0 SControl 300)
+Oct  5 14:53:23 metasploitable kernel: [   11.683868] ACPI: PCI Interrupt 0000:00:06.0[A] -> GSI 22 (level, low) -> IRQ 18
+Oct  5 14:53:23 metasploitable kernel: [   11.683942] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Oct  5 14:53:23 metasploitable kernel: [   11.683965] ohci_hcd 0000:00:06.0: OHCI Host Controller
+Oct  5 14:53:23 metasploitable kernel: [   11.684070] ohci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 1
+Oct  5 14:53:23 metasploitable kernel: [   11.684238] ohci_hcd 0000:00:06.0: irq 18, io mem 0xf0804000
+Oct  5 14:53:23 metasploitable kernel: [   11.744696] usb usb1: configuration #1 chosen from 1 choice
+Oct  5 14:53:23 metasploitable kernel: [   11.744713] hub 1-0:1.0: USB hub found
+Oct  5 14:53:23 metasploitable kernel: [   11.744795] hub 1-0:1.0: 12 ports detected
+Oct  5 14:53:23 metasploitable kernel: [   11.854584] ACPI: PCI Interrupt 0000:00:0b.0[A] -> GSI 19 (level, low) -> IRQ 16
+Oct  5 14:53:23 metasploitable kernel: [   11.854671] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Oct  5 14:53:23 metasploitable kernel: [   11.854698] ehci_hcd 0000:00:0b.0: EHCI Host Controller
+Oct  5 14:53:23 metasploitable kernel: [   11.854713] ehci_hcd 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Oct  5 14:53:23 metasploitable kernel: [   11.855371] ehci_hcd 0000:00:0b.0: irq 16, io mem 0xf0805000
+Oct  5 14:53:23 metasploitable kernel: [   11.873153] ehci_hcd 0000:00:0b.0: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004
+Oct  5 14:53:23 metasploitable kernel: [   11.873237] usb usb2: configuration #1 chosen from 1 choice
+Oct  5 14:53:23 metasploitable kernel: [   11.873248] hub 2-0:1.0: USB hub found
+Oct  5 14:53:23 metasploitable kernel: [   11.873250] hub 2-0:1.0: 12 ports detected
+Oct  5 14:53:23 metasploitable kernel: [   11.988659] Driver 'sd' needs updating - please use bus_type methods
+Oct  5 14:53:23 metasploitable kernel: [   11.989244] sd 0:0:1:0: [sda] 16777216 512-byte hardware sectors (8590 MB)
+Oct  5 14:53:23 metasploitable kernel: [   11.989249] sd 0:0:1:0: [sda] Write Protect is off
+Oct  5 14:53:23 metasploitable kernel: [   11.989250] sd 0:0:1:0: [sda] Mode Sense: 00 3a 00 00
+Oct  5 14:53:23 metasploitable kernel: [   11.989256] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct  5 14:53:23 metasploitable kernel: [   11.989278] sd 0:0:1:0: [sda] 16777216 512-byte hardware sectors (8590 MB)
+Oct  5 14:53:23 metasploitable kernel: [   11.989281] sd 0:0:1:0: [sda] Write Protect is off
+Oct  5 14:53:23 metasploitable kernel: [   11.989282] sd 0:0:1:0: [sda] Mode Sense: 00 3a 00 00
+Oct  5 14:53:23 metasploitable kernel: [   11.989287] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct  5 14:53:23 metasploitable kernel: [   11.989288]  sda: sda1 sda2 < sda5 >
+Oct  5 14:53:23 metasploitable kernel: [   11.990961] sd 0:0:1:0: [sda] Attached SCSI disk
+Oct  5 14:53:23 metasploitable kernel: [   11.991303] Driver 'sr' needs updating - please use bus_type methods
+Oct  5 14:53:23 metasploitable kernel: [   12.001028] sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct  5 14:53:23 metasploitable kernel: [   12.001030] Uniform CD-ROM driver Revision: 3.20
+Oct  5 14:53:23 metasploitable kernel: [   12.001055] sr 0:0:0:0: Attached scsi CD-ROM sr0
+Oct  5 14:53:23 metasploitable kernel: [   12.005337] sr 0:0:0:0: Attached scsi generic sg0 type 5
+Oct  5 14:53:23 metasploitable kernel: [   12.005347] sd 0:0:1:0: Attached scsi generic sg1 type 0
+Oct  5 14:53:23 metasploitable kernel: [   12.170827] Attempting manual resume
+Oct  5 14:53:23 metasploitable kernel: [   12.170829] swsusp: Resume From Partition 254:1
+Oct  5 14:53:23 metasploitable kernel: [   12.170830] PM: Checking swsusp image.
+Oct  5 14:53:23 metasploitable kernel: [   12.171269] PM: Resume from disk failed.
+Oct  5 14:53:23 metasploitable kernel: [   12.187544] kjournald starting.  Commit interval 5 seconds
+Oct  5 14:53:23 metasploitable kernel: [   12.187552] EXT3-fs: mounted filesystem with ordered data mode.
+Oct  5 14:53:23 metasploitable kernel: [   13.496505] input: Power Button (FF) as /devices/virtual/input/input2
+Oct  5 14:53:23 metasploitable kernel: [   13.533829] ACPI: Power Button (FF) [PWRF]
+Oct  5 14:53:23 metasploitable kernel: [   13.533999] input: Sleep Button (FF) as /devices/virtual/input/input3
+Oct  5 14:53:23 metasploitable kernel: [   13.578322] ACPI: Sleep Button (FF) [SLPF]
+Oct  5 14:53:23 metasploitable kernel: [   13.634532] ACPI: AC Adapter [AC] (on-line)
+Oct  5 14:53:23 metasploitable kernel: [   13.691901] input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Oct  5 14:53:23 metasploitable kernel: [   13.728735] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct  5 14:53:23 metasploitable kernel: [   13.747161] ACPI: Battery Slot [BAT0] (battery present)
+Oct  5 14:53:23 metasploitable kernel: [   13.782993] e1000: eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct  5 14:53:23 metasploitable kernel: [   14.134233] input: PC Speaker as /devices/platform/pcspkr/input/input5
+Oct  5 14:53:23 metasploitable kernel: [   14.180579] ACPI: PCI Interrupt 0000:00:05.0[A] -> GSI 21 (level, low) -> IRQ 17
+Oct  5 14:53:23 metasploitable kernel: [   14.180641] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Oct  5 14:53:23 metasploitable kernel: [   14.214579] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input6
+Oct  5 14:53:23 metasploitable kernel: [   14.526363] intel8x0_measure_ac97_clock: measured 58069 usecs
+Oct  5 14:53:23 metasploitable kernel: [   14.526364] intel8x0: clocking to 50678
+Oct  5 14:53:23 metasploitable kernel: [   15.236585] NET: Registered protocol family 17
+Oct  5 14:53:23 metasploitable kernel: [   16.007551] loop: module loaded
+Oct  5 14:53:23 metasploitable kernel: [   16.022167] lp: driver loaded but no devices found
+Oct  5 14:53:23 metasploitable kernel: [   21.349484] EXT3 FS on dm-0, internal journal
+Oct  5 14:53:23 metasploitable kernel: [   21.741944] kjournald starting.  Commit interval 5 seconds
+Oct  5 14:53:23 metasploitable kernel: [   21.742377] EXT3 FS on sda1, internal journal
+Oct  5 14:53:23 metasploitable kernel: [   21.742379] EXT3-fs: mounted filesystem with ordered data mode.
+Oct  5 14:53:23 metasploitable kernel: [   21.905867] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct  5 14:53:23 metasploitable kernel: [   23.002066] RPC: Registered udp transport module.
+Oct  5 14:53:23 metasploitable kernel: [   23.002068] RPC: Registered tcp transport module.
+Oct  5 14:53:23 metasploitable named[4053]: starting BIND 9.4.2 -u bind
+Oct  5 14:53:23 metasploitable named[4053]: found 1 CPU, using 1 worker thread
+Oct  5 14:53:23 metasploitable named[4053]: loading configuration from '/etc/bind/named.conf'
+Oct  5 14:53:23 metasploitable kernel: [   23.759034] NET: Registered protocol family 10
+Oct  5 14:53:23 metasploitable kernel: [   23.759102] lo: Disabled Privacy Extensions
+Oct  5 14:53:23 metasploitable named[4053]: listening on IPv6 interfaces, port 53
+Oct  5 14:53:23 metasploitable named[4053]: listening on IPv4 interface lo, 127.0.0.1#53
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: D.F.IP6.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: 8.E.F.IP6.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: 9.E.F.IP6.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: A.E.F.IP6.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: automatic empty zone: B.E.F.IP6.ARPA
+Oct  5 14:53:23 metasploitable named[4053]: command channel listening on 127.0.0.1#953
+Oct  5 14:53:23 metasploitable named[4053]: command channel listening on ::1#953
+Oct  5 14:53:23 metasploitable named[4053]: zone 0.in-addr.arpa/IN: loaded serial 1
+Oct  5 14:53:23 metasploitable named[4053]: zone 127.in-addr.arpa/IN: loaded serial 1
+Oct  5 14:53:23 metasploitable named[4053]: zone 255.in-addr.arpa/IN: loaded serial 1
+Oct  5 14:53:23 metasploitable named[4053]: zone localhost/IN: loaded serial 2
+Oct  5 14:53:23 metasploitable named[4053]: running
+Oct  5 14:53:24 metasploitable mysqld_safe[4197]: started
+Oct  5 14:53:24 metasploitable mysqld[4201]: 261005 14:53:24  InnoDB: Started; log sequence number 0 43675
+Oct  5 14:53:24 metasploitable mysqld[4201]: 261005 14:53:24 [Note] /usr/sbin/mysqld: ready for connections.
+Oct  5 14:53:24 metasploitable mysqld[4201]: Version: '5.0.51a-3ubuntu5'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Oct  5 14:53:25 metasploitable /etc/mysql/debian-start[4237]: Upgrading MySQL tables if necessary.
+Oct  5 14:53:25 metasploitable /etc/mysql/debian-start[4244]: Looking for 'mysql' in: /usr/bin/mysql
+Oct  5 14:53:25 metasploitable /etc/mysql/debian-start[4244]: Looking for 'mysqlcheck' in: /usr/bin/mysqlcheck
+Oct  5 14:53:25 metasploitable /etc/mysql/debian-start[4244]: This installation of MySQL is already upgraded to 5.0.51a, use --force if you still need to run mysql_upgrade
+Oct  5 14:53:25 metasploitable /etc/mysql/debian-start[4256]: Checking for insecure root accounts.
+Oct  5 14:53:25 metasploitable /etc/mysql/debian-start[4262]: WARNING: mysql.user contains 1 root accounts without password!
+Oct  5 14:53:25 metasploitable /etc/mysql/debian-start[4264]: Checking for crashed MySQL tables.
+Oct  5 14:53:26 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  5 14:53:29 metasploitable distccd[4302]: (dcc_setup_daemon_path) daemon's PATH is /sbin:/bin:/usr/sbin:/usr/bin
+Oct  5 14:53:29 metasploitable distccd[4302]: (dcc_listen_by_addr) listening on :::3632
+Oct  5 14:53:29 metasploitable distccd[4302]: (dcc_standalone_server) 1 CPU online on this server
+Oct  5 14:53:29 metasploitable distccd[4302]: (dcc_standalone_server) allowing up to 3 active jobs
+Oct  5 14:53:29 metasploitable distccd[4303]: (dcc_log_daemon_started) preforking daemon started (2.18.3 i486-pc-linux-gnu, built May  1 2007 10:25:31)
+Oct  5 14:53:29 metasploitable kernel: [   29.260345] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Oct  5 14:53:29 metasploitable kernel: [   29.302994] NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Oct  5 14:53:29 metasploitable kernel: [   29.303012] NFSD: starting 90-second grace period
+Oct  5 14:53:29 metasploitable postfix/master[4432]: daemon started -- version 2.5.1, configuration /etc/postfix
+Oct  5 14:53:29 metasploitable xinetd[4457]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Oct  5 14:53:29 metasploitable xinetd[4457]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Oct  5 14:53:29 metasploitable xinetd[4457]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Oct  5 14:53:29 metasploitable xinetd[4457]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Oct  5 14:53:29 metasploitable xinetd[4457]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=26]
+Oct  5 14:53:29 metasploitable xinetd[4457]: Reading included configuration file: /etc/xinetd.d/vsftpd [file=/etc/xinetd.d/vsftpd] [line=28]
+Oct  5 14:53:29 metasploitable xinetd[4457]: added service telnet [file=/etc/inetd.conf] [line=2]
+Oct  5 14:53:29 metasploitable xinetd[4457]: added service tftp [file=/etc/inetd.conf] [line=4]
+Oct  5 14:53:29 metasploitable xinetd[4457]: added service shell [file=/etc/inetd.conf] [line=5]
+Oct  5 14:53:29 metasploitable xinetd[4457]: added service login [file=/etc/inetd.conf] [line=6]
+Oct  5 14:53:29 metasploitable xinetd[4457]: added service exec [file=/etc/inetd.conf] [line=7]
+Oct  5 14:53:29 metasploitable xinetd[4457]: added service ingreslock [file=/etc/inetd.conf] [line=8]
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing chargen
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing chargen
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing daytime
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing daytime
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing discard
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing discard
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing echo
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing echo
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing time
+Oct  5 14:53:29 metasploitable xinetd[4457]: removing time
+Oct  5 14:53:29 metasploitable xinetd[4457]: xinetd Version 2.3.14 started with libwrap loadavg options compiled in.
+Oct  5 14:53:29 metasploitable xinetd[4457]: Started working: 7 available services
+Oct  5 14:53:29 metasploitable /usr/sbin/cron[4520]: (CRON) INFO (pidfile fd = 3)
+Oct  5 14:53:29 metasploitable /usr/sbin/cron[4521]: (CRON) STARTUP (fork ok)
+Oct  5 14:53:29 metasploitable /usr/sbin/cron[4521]: (CRON) INFO (Running @reboot jobs)
+Oct  5 14:53:30 metasploitable tomcat5.5: The java-gcj-compat-dev environment currently doesn't
+Oct  5 14:53:30 metasploitable tomcat5.5: support a security manager. See README.Debian.
+Oct  5 14:53:31 metasploitable jsvc.exec[4550]: Created MBeanServer with ID: -z3qcn4:muvlygft.0:metasploitable:1 
+Oct  5 14:53:32 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:32 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/lib/../lib/gcj-4.2-81:/usr/lib/jni 
+Oct  5 14:53:33 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:33 PM org.apache.coyote.http11.Http11BaseProtocol init INFO: Initializing Coyote HTTP/1.1 on http-8180 
+Oct  5 14:53:33 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:33 PM org.apache.catalina.startup.Catalina load INFO: Initialization processed in 1918 ms 
+Oct  5 14:53:33 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:33 PM org.apache.catalina.core.StandardService start INFO: Starting service Catalina 
+Oct  5 14:53:33 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:33 PM org.apache.catalina.core.StandardEngine start INFO: Starting Servlet Engine: Apache Tomcat/5.5 
+Oct  5 14:53:33 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:33 PM org.apache.catalina.core.StandardHost start INFO: XML validation disabled 
+Oct  5 14:53:34 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:34 PM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: contextInitialized() 
+Oct  5 14:53:34 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:34 PM org.apache.catalina.core.ApplicationContext log INFO: SessionListener: contextInitialized() 
+Oct  5 14:53:34 metasploitable kernel: [   34.195816] eth0: no IPv6 routers present
+Oct  5 14:53:34 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:34 PM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.commons.modeler.Registry@77ede0') 
+Oct  5 14:53:34 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:34 PM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'mx4j.server.MX4JMBeanServer@46ac30') 
+Oct  5 14:53:34 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:34 PM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: contextInitialized() 
+Oct  5 14:53:34 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:34 PM org.apache.catalina.core.ApplicationContext log INFO: SessionListener: contextInitialized() 
+Oct  5 14:53:35 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:35 PM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.commons.modeler.Registry@77ede0') 
+Oct  5 14:53:35 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:35 PM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'mx4j.server.MX4JMBeanServer@46ac30') 
+Oct  5 14:53:37 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:37 PM org.apache.catalina.core.ApplicationContext log INFO: org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balanc
+Oct  5 14:53:37 metasploitable jsvc.exec[4550]: er.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramVa
+Oct  5 14:53:37 metasploitable jsvc.exec[4550]: lue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]] 
+Oct  5 14:53:38 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:38 PM org.apache.coyote.http11.Http11BaseProtocol start INFO: Starting Coyote HTTP/1.1 on http-8180 
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:38 PM org.apache.commons.modeler.modules.MbeansDescriptorsDOMSource execute SEVERE: Error reading descriptors  gnu.xml.dom.ls.DomLSException    at gnu.xml.dom.ls.DomLSParser.doParse(libg
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: cj.so.81)    at gnu.xml.dom.ls.DomLSParser.parse(libgcj.so.81)    at gnu.xml.dom.DomDocumentBuilder.parse(libgcj.so.81)    at org.apache.commons.modeler.util.DomUtil.readXml(DomUtil.java:257)    at or
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: g.apache.commons.modeler.modules.MbeansDescriptorsDOMSource.execute(MbeansDescriptorsDOMSource.java:88)    at org.apache.commons.modeler.modules.MbeansDescriptorsDOMSource.loadDescriptors(MbeansDescri
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: ptorsDOMSource.java:78)    at org.apache.commons.modeler.Registry.load(Registry.java:792)    at org.apache.commons.modeler.Registry.loadDescriptors(Registry.java:901)    at org.apache.commons.modeler.
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: Registry.loadDescriptors(Registry.java:882)    at org.apache.commons.modeler.Registry.findDescriptor(Registry.java:961)    at org.apache.commons.modeler.Registry.findManagedBean(Registry.java:666)    
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: at org.apache.commons.modeler.Registry.findManagedBean(Registry.java:1015)    at org.apache.commons.modeler.Registry.registerComponent(Registry.java:832)    at org.apache.catalina.connector.Connector.
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: start(Connector.java:1077)    at org.apache.catalina.core.StandardService.start(StandardService.java:457)    at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)    at org.apache.
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: catalina.startup.Catalina.start(Catalina.java:552)    at java.lang.reflect.Method.invoke(libgcj.so.81)    at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)    at java.lang.reflect.Met
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: hod.invoke(libgcj.so.81)    at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177) Caused by: org.xml.sax.SAXParseException    at gnu.xml.stream.SAXParser.parse(libgcj.so.81)  
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]:   at gnu.xml.dom.ls.DomLSParser.doParse(libgcj.so.81)    ...20 more Caused by: javax.xml.stream.XMLStreamException    at gnu.xml.stream.XMLParser.next(libgcj.so.81)    at gnu.xml.stream.XMLParser.hasN
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: ext(libgcj.so.81)    at gnu.xml.stream.SAXParser.parse(libgcj.so.81)    ...21 more Caused by: java.io.IOException: error resolving http://jakarta.apache.org/commons/dtds/mbeans-descriptors.dtd    at g
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: nu.xml.stream.XMLParser.resolve(libgcj.so.81)    at gnu.xml.stream.XMLParser.pushInput(libgcj.so.81)    at gnu.xml.stream.XMLParser.readDoctypeDecl(libgcj.so.81)    at gnu.xml.stream.XMLParser.next(li
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: bgcj.so.81)    ...23 more Caused by: java.net.UnknownHostException: jakarta.apache.org:80    at gnu.java.net.PlainSocketImpl.connect(libgcj.so.81)    at java.net.Socket.connect(libgcj.so.81)    at jav
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: a.net.Socket.connect(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPConnection.getSocket(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPConnection.getOutputStream(libgcj.so.81)    at gnu.java.
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: net.protocol.http.Request.dispatch(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPURLConnection.connect(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPURLConnection.getInputStream(libgcj.so.81
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: )    at java.net.URL.openStream(libgcj.so.81)    at gnu.xml.stream.XMLParser.resolve(libgcj.so.81)    ...26 more 
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:38 PM org.apache.jk.common.ChannelSocket init INFO: JK: ajp13 listening on /0.0.0.0:8009 
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:38 PM org.apache.jk.server.JkMain start INFO: Jk running ID=0 time=1/92  config=null 
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:38 PM org.apache.catalina.storeconfig.StoreLoader load INFO: Find registry server-registry.xml at classpath resource 
+Oct  5 14:53:38 metasploitable jsvc.exec[4550]: 5-Oct-26 2:53:38 PM org.apache.catalina.startup.Catalina start INFO: Server startup in 5567 ms 
+Oct  5 14:53:55 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  5 14:54:02 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  5 14:54:14 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct  5 14:54:19 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 14:54:19 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 14:54:19 metasploitable ntpdate[4724]: can't find host ntp.ubuntu.com 
+Oct  5 14:54:19 metasploitable ntpdate[4724]: no servers can be used, exiting
+Oct  5 14:54:19 metasploitable postfix/master[4432]: reload configuration /etc/postfix
+Oct  5 14:57:23 metasploitable named[4053]: listening on IPv4 interface eth0, 192.168.56.20#53
+Oct  5 15:01:22 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  5 15:01:30 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  5 15:01:40 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  5 15:01:54 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Oct  5 15:02:01 metasploitable /USR/SBIN/CRON[4771]: (root) CMD (if [ -x /usr/sbin/pg_maintenance ]; then /usr/sbin/pg_maintenance --analyze >/dev/null; fi)
+Oct  5 15:02:13 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  5 15:02:23 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:02:23 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:06:48 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct  5 15:06:54 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Oct  5 15:07:14 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Oct  5 15:07:32 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  5 15:07:40 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Oct  5 15:07:49 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:07:49 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:09:01 metasploitable /USR/SBIN/CRON[4797]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Oct  5 15:13:03 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct  5 15:13:09 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  5 15:13:20 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  5 15:13:28 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Oct  5 15:13:37 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  5 15:13:50 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  5 15:14:04 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:14:04 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:17:01 metasploitable /USR/SBIN/CRON[4830]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  5 15:20:43 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  5 15:20:47 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  5 15:20:54 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  5 15:21:07 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  5 15:21:21 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Oct  5 15:21:41 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct  5 15:21:44 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:21:44 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:22:38 metasploitable in.telnetd[4852]: connect from 192.168.56.10 (192.168.56.10)
+Oct  5 15:22:38 metasploitable telnetd[4852]: doit: getnameinfo: Success
+Oct  5 15:22:38 metasploitable telnetd[4852]: ttloop: peer died: EOF 
+Oct  5 15:22:38 metasploitable in.rshd[4855]: connect from 192.168.56.10 (192.168.56.10)
+Oct  5 15:22:38 metasploitable in.rlogind[4856]: connect from 192.168.56.10 (192.168.56.10)
+Oct  5 15:22:38 metasploitable in.rexecd[4858]: connect from 192.168.56.10 (192.168.56.10)
+Oct  5 15:22:38 metasploitable postfix/smtpd[4848]: connect from unknown[192.168.56.10]
+Oct  5 15:22:38 metasploitable postfix/smtpd[4848]: lost connection after CONNECT from unknown[192.168.56.10]
+Oct  5 15:22:38 metasploitable postfix/smtpd[4848]: disconnect from unknown[192.168.56.10]
+Oct  5 15:22:45 metasploitable jsvc.exec[4550]: 5-Oct-26 3:22:45 PM org.apache.jk.common.MsgAjp processHeader SEVERE: BAD packet signature 18245 5-Oct-26 3:22:45 PM org.apache.jk.common.ChannelSocket processConnection SEVERE: Error, processing connection java.lang.IndexOutOfBoundsException    at java.io.BufferedInputStream.read(libgcj.so.81)    at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:626)    at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:583)    at org.apache.jk.common.ChannelSocket.processConnection(ChannelSocket.java:691)    at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:895)    at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)    at java.lang.Thread.run(libgcj.so.81) 
+Oct  5 15:22:45 metasploitable in.rlogind[4875]: connect from 192.168.56.10 (192.168.56.10)
+Oct  5 15:22:45 metasploitable jsvc.exec[4550]: 5-Oct-26 3:22:45 PM org.apache.jk.common.MsgAjp processHeader SEVERE: BAD packet signature 5635 5-Oct-26 3:22:45 PM org.apache.jk.common.ChannelSocket processConnection WARNING: Closing ajp connection 0 
+Oct  5 15:22:45 metasploitable jsvc.exec[4550]: 5-Oct-26 3:22:45 PM org.apache.jk.common.MsgAjp processHeader SEVERE: BAD packet signature 32926 
+Oct  5 15:22:50 metasploitable jsvc.exec[4550]: 5-Oct-26 3:22:50 PM org.apache.jk.common.ChannelSocket receive WARNING: can't read body, waited #259 5-Oct-26 3:22:50 PM org.apache.jk.common.ChannelSocket processConnection WARNING: Closing ajp connection -1 
+Oct  5 15:22:50 metasploitable jsvc.exec[4550]: 5-Oct-26 3:22:50 PM org.apache.jk.common.MsgAjp processHeader SEVERE: BAD packet signature 18245 
+Oct  5 15:22:50 metasploitable jsvc.exec[4550]: 5-Oct-26 3:22:50 PM org.apache.jk.common.ChannelSocket processConnection SEVERE: Error, processing connection java.lang.IndexOutOfBoundsException    at java.io.BufferedInputStream.read(libgcj.so.81)  
+Oct  5 15:22:50 metasploitable jsvc.exec[4550]:   at org.apache.jk.common.ChannelSocket.read(ChannelSocket.java:626)    at org.apache.jk.common.ChannelSocket.receive(ChannelSocket.java:583)    at org.apache.jk.common.ChannelSocket.processConnection
+Oct  5 15:22:50 metasploitable jsvc.exec[4550]: (ChannelSocket.java:691)    at org.apache.jk.common.ChannelSocket$SocketConnection.runIt(ChannelSocket.java:895)    at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:689)    at java.lang.Thread.run(libgcj.so.81) 
+Oct  5 15:24:22 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  5 15:24:26 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  5 15:24:36 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Oct  5 15:24:52 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Oct  5 15:25:10 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  5 15:25:23 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:25:23 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:25:58 metasploitable postfix/anvil[4871]: statistics: max connection rate 1/60s for (smtp:192.168.56.10) at Oct  5 15:22:38
+Oct  5 15:25:58 metasploitable postfix/anvil[4871]: statistics: max connection count 1 for (smtp:192.168.56.10) at Oct  5 15:22:38
+Oct  5 15:25:58 metasploitable postfix/anvil[4871]: statistics: max cache size 1 at Oct  5 15:22:38
+Oct  5 15:28:55 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  5 15:29:03 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Oct  5 15:29:18 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Oct  5 15:29:34 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  5 15:29:42 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  5 15:29:56 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:29:56 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:36:47 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct  5 15:36:52 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  5 15:37:03 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  5 15:37:15 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Oct  5 15:37:33 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  5 15:37:47 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 1
+Oct  5 15:37:48 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:37:48 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:39:01 metasploitable /USR/SBIN/CRON[4928]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Oct  5 15:43:51 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  5 15:43:59 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Oct  5 15:44:14 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  5 15:44:21 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  5 15:44:32 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 18
+Oct  5 15:44:50 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 2
+Oct  5 15:44:52 metasploitable dhclient: No DHCPOFFERS received.
+Oct  5 15:44:52 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  5 15:47:33 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct  5 15:47:39 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  5 15:47:49 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Oct  5 15:48:08 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  5 15:48:15 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 01:27:38 metasploitable syslogd 1.5.0#1ubuntu1: restart.
+Oct  6 01:27:38 metasploitable kernel: Inspecting /boot/System.map-2.6.24-16-server
+Oct  6 01:27:38 metasploitable kernel: Loaded 28738 symbols from /boot/System.map-2.6.24-16-server.
+Oct  6 01:27:38 metasploitable kernel: Symbols match kernel version 2.6.24.
+Oct  6 01:27:38 metasploitable kernel: Loaded 15470 symbols from 60 modules.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Linux version 2.6.24-16-server (buildd@palmer) (gcc version 4.2.3 (Ubuntu 4.2.3-2ubuntu7)) #1 SMP Thu Apr 10 13:58:00 UTC 2008 (Ubuntu 2.6.24-16.30-server)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 000000003fff0000 (usable)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 000000003fff0000 - 0000000040000000 (ACPI data)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fec00000 - 00000000fec01000 (reserved)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fee00000 - 00000000fee01000 (reserved)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] 127MB HIGHMEM available.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] 896MB LOWMEM available.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] found SMP MP-table at 0009fbf0
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Entering add_active_range(0, 0, 262128) 0 entries of 256 used
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Zone PFN ranges:
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   DMA             0 ->     4096
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   Normal       4096 ->   229376
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   HighMem    229376 ->   262128
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Movable zone start PFN for each node
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] early_node_map[1] active PFN ranges
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]     0:        0 ->   262128
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] On node 0 totalpages: 262128
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   DMA zone: 0 pages reserved
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   Normal zone: 1760 pages used for memmap
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   Normal zone: 223520 pages, LIFO batch:31
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   HighMem zone: 255 pages used for memmap
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   HighMem zone: 32497 pages, LIFO batch:7
+Oct  6 01:27:38 metasploitable kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] DMI 2.5 present.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: RSDP signature @ 0xC00E0000 checksum 0
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: RSDP 000E0000, 0024 (r2 VBOX  )
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: XSDT 3FFF0030, 003C (r1 VBOX   VBOXXSDT        1 ASL        61)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: FACP 3FFF00F0, 00F4 (r4 VBOX   VBOXFACP        1 ASL        61)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: DSDT 3FFF02E0, 2353 (r2 VBOX   VBOXBIOS        2 VBOX    2AC32)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: FACS 3FFF0200, 0040
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: APIC 3FFF0240, 0054 (r2 VBOX   VBOXAPIC        1 ASL        61)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: SSDT 3FFF02A0, 0038 (r1 VBOX   VBOXCPUT        2 VBOX    2AC32)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Processor #0 14:10 APIC version 20
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: IRQ2 used by override.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Allocating PCI resources starting at 50000000 (gap: 40000000:bec00000)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 000000000009f000 - 00000000000a0000
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 00000000000a0000 - 00000000000f0000
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 00000000000f0000 - 0000000000100000
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 260081
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Kernel command line: root=/dev/mapper/metasploitable-root ro quiet splash
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] mapped IOAPIC to ffffa000 (fec00000)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Enabling fast FPU save and restore... done.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Enabling unmasked SIMD FPU exception support... done.
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Initializing CPU#0
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] PID hash table entries: 4096 (order: 12, 16384 bytes)
+Oct  6 01:27:38 metasploitable kernel: [    0.000000] Detected 2976.484 MHz processor.
+Oct  6 01:27:38 metasploitable kernel: [    5.309877] Console: colour VGA+ 80x25
+Oct  6 01:27:38 metasploitable kernel: [    5.309879] console [tty0] enabled
+Oct  6 01:27:38 metasploitable kernel: [    5.310746] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct  6 01:27:38 metasploitable kernel: [    5.311223] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct  6 01:27:38 metasploitable kernel: [    5.315099] Memory: 1026828k/1048512k available (2255k kernel code, 21028k reserved, 1032k data, 384k init, 131008k highmem)
+Oct  6 01:27:38 metasploitable kernel: [    5.315101] virtual kernel memory layout:
+Oct  6 01:27:38 metasploitable kernel: [    5.315102]     fixmap  : 0xfff4c000 - 0xfffff000   ( 716 kB)
+Oct  6 01:27:38 metasploitable kernel: [    5.315102]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Oct  6 01:27:38 metasploitable kernel: [    5.315102]     vmalloc : 0xf8800000 - 0xffbfe000   ( 115 MB)
+Oct  6 01:27:38 metasploitable kernel: [    5.315102]     lowmem  : 0xc0000000 - 0xf8000000   ( 896 MB)
+Oct  6 01:27:38 metasploitable kernel: [    5.315102]       .init : 0xc043c000 - 0xc049c000   ( 384 kB)
+Oct  6 01:27:38 metasploitable kernel: [    5.315103]       .data : 0xc0333e95 - 0xc0435fe4   (1032 kB)
+Oct  6 01:27:38 metasploitable kernel: [    5.315103]       .text : 0xc0100000 - 0xc0333e95   (2255 kB)
+Oct  6 01:27:38 metasploitable kernel: [    5.315103] Checking if this processor honours the WP bit even in supervisor mode... Ok.
+Oct  6 01:27:38 metasploitable kernel: [    5.315182] SLUB: Genslabs=11, HWalign=64, Order=0-1, MinObjects=4, CPUs=1, Nodes=1
+Oct  6 01:27:38 metasploitable kernel: [    5.475174] Calibrating delay using timer specific routine.. 6264.95 BogoMIPS (lpj=31324772)
+Oct  6 01:27:38 metasploitable kernel: [    5.475251] Security Framework initialized
+Oct  6 01:27:38 metasploitable kernel: [    5.475254] SELinux:  Disabled at boot.
+Oct  6 01:27:38 metasploitable kernel: [    5.475279] AppArmor: AppArmor initialized
+Oct  6 01:27:38 metasploitable kernel: [    5.475281] Failure registering capabilities with primary security module.
+Oct  6 01:27:38 metasploitable kernel: [    5.475285] Mount-cache hash table entries: 512
+Oct  6 01:27:38 metasploitable kernel: [    5.475451] Initializing cgroup subsys ns
+Oct  6 01:27:38 metasploitable kernel: [    5.475454] Initializing cgroup subsys cpuacct
+Oct  6 01:27:38 metasploitable kernel: [    5.475639] CPU: After generic identify, caps: 178bfbff 28100000 00000000 00000000 f6da3203 00000000 00000121 00000000
+Oct  6 01:27:38 metasploitable kernel: [    5.475766] CPU: L1 I cache: 64K, L1 D cache: 48K
+Oct  6 01:27:38 metasploitable kernel: [    5.475766] CPU: L2 cache: 2048K
+Oct  6 01:27:38 metasploitable kernel: [    5.475767] CPU: L3 cache: 24576K
+Oct  6 01:27:38 metasploitable kernel: [    5.475807] CPU: Hyper-Threading is disabled
+Oct  6 01:27:38 metasploitable kernel: [    5.475809] CPU: After all inits, caps: 178bfbff 28100000 00000000 00000140 f6da3203 00000000 00000121 00000000
+Oct  6 01:27:38 metasploitable kernel: [    5.475822] Compat vDSO mapped to ffffe000.
+Oct  6 01:27:38 metasploitable kernel: [    5.475874] Checking 'hlt' instruction... OK.
+Oct  6 01:27:38 metasploitable kernel: [    5.529152] SMP alternatives: switching to UP code
+Oct  6 01:27:38 metasploitable kernel: [    5.597649] Freeing SMP alternatives: 12k freed
+Oct  6 01:27:38 metasploitable kernel: [    5.597771] Early unpacking initramfs... done
+Oct  6 01:27:38 metasploitable kernel: [    5.812108] ACPI: Core revision 20070126
+Oct  6 01:27:38 metasploitable kernel: [    5.812162] ACPI: Looking for DSDT in initramfs... error, file /DSDT.aml not found.
+Oct  6 01:27:38 metasploitable kernel: [    5.812510] CPU0: Intel(R) Core(TM) Ultra 7 155H stepping 04
+Oct  6 01:27:38 metasploitable kernel: [    5.817816] Total of 1 processors activated (6264.95 BogoMIPS).
+Oct  6 01:27:38 metasploitable kernel: [    5.822811] ENABLING IO-APIC IRQs
+Oct  6 01:27:38 metasploitable kernel: [    5.824371] ..TIMER: vector=0x31 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct  6 01:27:38 metasploitable kernel: [    6.055909] APIC calibration not consistent with PM Timer: 104ms instead of 100ms
+Oct  6 01:27:38 metasploitable kernel: [    6.055911] APIC delta adjusted to PM-Timer: 6000345 (6249241)
+Oct  6 01:27:38 metasploitable kernel: [    6.056189] Brought up 1 CPUs
+Oct  6 01:27:38 metasploitable kernel: [    6.056715] CPU0 attaching sched-domain:
+Oct  6 01:27:38 metasploitable kernel: [    6.056717]  domain 0: span 01
+Oct  6 01:27:38 metasploitable kernel: [    6.056717]   groups: 01
+Oct  6 01:27:38 metasploitable kernel: [    6.056831] net_namespace: 64 bytes
+Oct  6 01:27:38 metasploitable kernel: [    6.056835] Booting paravirtualized kernel on bare hardware
+Oct  6 01:27:38 metasploitable kernel: [    6.057237] Time:  5:27:30  Date: 10/06/26
+Oct  6 01:27:38 metasploitable kernel: [    6.057256] NET: Registered protocol family 16
+Oct  6 01:27:38 metasploitable kernel: [    6.057456] EISA bus registered
+Oct  6 01:27:38 metasploitable kernel: [    6.057514] ACPI: bus type pci registered
+Oct  6 01:27:38 metasploitable kernel: [    6.057936] PCI: PCI BIOS revision 2.10 entry at 0xfda56, last bus=0
+Oct  6 01:27:38 metasploitable kernel: [    6.057937] PCI: Using configuration type 1
+Oct  6 01:27:38 metasploitable kernel: [    6.057938] Setting up standard PCI resources
+Oct  6 01:27:38 metasploitable kernel: [    6.059783] ACPI: EC: Look up EC in DSDT
+Oct  6 01:27:38 metasploitable kernel: [    6.064510] ACPI: Interpreter enabled
+Oct  6 01:27:38 metasploitable kernel: [    6.064511] ACPI: (supports S0 S1 S4 S5)
+Oct  6 01:27:38 metasploitable kernel: [    6.064514] ACPI: Using IOAPIC for interrupt routing
+Oct  6 01:27:38 metasploitable kernel: [    6.066630] ACPI: PCI Root Bridge [PCI0] (0000:00)
+Oct  6 01:27:38 metasploitable kernel: [    6.076532] PCI quirk: region 4000-403f claimed by PIIX4 ACPI
+Oct  6 01:27:38 metasploitable kernel: [    6.076549] PCI quirk: region 4100-410f claimed by PIIX4 SMB
+Oct  6 01:27:38 metasploitable kernel: [    6.078731] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Oct  6 01:27:38 metasploitable kernel: [    6.084562] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct  6 01:27:38 metasploitable kernel: [    6.084799] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Oct  6 01:27:38 metasploitable kernel: [    6.084880] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Oct  6 01:27:38 metasploitable kernel: [    6.084974] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Oct  6 01:27:38 metasploitable kernel: [    6.085138] Linux Plug and Play Support v0.97 (c) Adam Belay
+Oct  6 01:27:38 metasploitable kernel: [    6.085162] pnp: PnP ACPI init
+Oct  6 01:27:38 metasploitable kernel: [    6.085165] ACPI: bus type pnp registered
+Oct  6 01:27:38 metasploitable kernel: [    6.086298] pnp: PnP ACPI: found 4 devices
+Oct  6 01:27:38 metasploitable kernel: [    6.086299] ACPI: ACPI bus type pnp unregistered
+Oct  6 01:27:38 metasploitable kernel: [    6.086300] PnPBIOS: Disabled by ACPI PNP
+Oct  6 01:27:38 metasploitable kernel: [    6.086544] PCI: Using ACPI for IRQ routing
+Oct  6 01:27:38 metasploitable kernel: [    6.086545] PCI: If a device doesn't work, try "pci=routeirq".  If it helps, post a report
+Oct  6 01:27:38 metasploitable kernel: [    6.123771] NET: Registered protocol family 8
+Oct  6 01:27:38 metasploitable kernel: [    6.123774] NET: Registered protocol family 20
+Oct  6 01:27:38 metasploitable kernel: [    6.123817] NetLabel: Initializing
+Oct  6 01:27:38 metasploitable kernel: [    6.123818] NetLabel:  domain hash size = 128
+Oct  6 01:27:38 metasploitable kernel: [    6.123819] NetLabel:  protocols = UNLABELED CIPSOv4
+Oct  6 01:27:38 metasploitable kernel: [    6.123825] NetLabel:  unlabeled traffic allowed by default
+Oct  6 01:27:38 metasploitable kernel: [    6.123877] AppArmor: AppArmor Filesystem Enabled
+Oct  6 01:27:38 metasploitable kernel: [    6.133150] Time: tsc clocksource has been installed.
+Oct  6 01:27:38 metasploitable kernel: [    6.182951] NET: Registered protocol family 2
+Oct  6 01:27:38 metasploitable kernel: [    6.278283] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct  6 01:27:38 metasploitable kernel: [    6.278338] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct  6 01:27:38 metasploitable kernel: [    6.280286] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+Oct  6 01:27:38 metasploitable kernel: [    6.281170] TCP: Hash tables configured (established 131072 bind 65536)
+Oct  6 01:27:38 metasploitable kernel: [    6.281171] TCP reno registered
+Oct  6 01:27:38 metasploitable kernel: [    6.307651] checking if image is initramfs... it is
+Oct  6 01:27:38 metasploitable kernel: [    6.696259] Freeing initrd memory: 7743k freed
+Oct  6 01:27:38 metasploitable kernel: [    6.696884] audit: initializing netlink socket (disabled)
+Oct  6 01:27:38 metasploitable kernel: [    6.696890] audit(1791264450.155:1): initialized
+Oct  6 01:27:38 metasploitable kernel: [    6.696975] highmem bounce pool size: 64 pages
+Oct  6 01:27:38 metasploitable kernel: [    6.696976] Total HugeTLB memory allocated, 0
+Oct  6 01:27:38 metasploitable kernel: [    6.698472] VFS: Disk quotas dquot_6.5.1
+Oct  6 01:27:38 metasploitable kernel: [    6.698547] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct  6 01:27:38 metasploitable kernel: [    6.698725] io scheduler noop registered
+Oct  6 01:27:38 metasploitable kernel: [    6.698725] io scheduler anticipatory registered
+Oct  6 01:27:38 metasploitable kernel: [    6.698726] io scheduler deadline registered (default)
+Oct  6 01:27:38 metasploitable kernel: [    6.698729] io scheduler cfq registered
+Oct  6 01:27:38 metasploitable kernel: [    6.698742] Limiting direct PCI/PCI transfers.
+Oct  6 01:27:38 metasploitable kernel: [    6.698776] Activating ISA DMA hang workarounds.
+Oct  6 01:27:38 metasploitable kernel: [    6.698798] Boot video device is 0000:00:02.0
+Oct  6 01:27:38 metasploitable kernel: [    6.699375] isapnp: Scanning for PnP cards...
+Oct  6 01:27:38 metasploitable kernel: [    6.787486] Switched to high resolution mode on CPU 0
+Oct  6 01:27:38 metasploitable kernel: [    7.098071] isapnp: No Plug & Play device found
+Oct  6 01:27:38 metasploitable kernel: [    7.106484] Real Time Clock Driver v1.12ac
+Oct  6 01:27:38 metasploitable kernel: [    7.106521] Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing enabled
+Oct  6 01:27:38 metasploitable kernel: [    7.107096] RAMDISK driver initialized: 16 RAM disks of 65536K size 1024 blocksize
+Oct  6 01:27:38 metasploitable kernel: [    7.107115] input: Macintosh mouse button emulation as /devices/virtual/input/input0
+Oct  6 01:27:38 metasploitable kernel: [    7.107138] PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct  6 01:27:38 metasploitable kernel: [    7.108346] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct  6 01:27:38 metasploitable kernel: [    7.108348] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct  6 01:27:38 metasploitable kernel: [    7.113622] mice: PS/2 mouse device common for all mice
+Oct  6 01:27:38 metasploitable kernel: [    7.114694] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Oct  6 01:27:38 metasploitable kernel: [    7.114699] EISA: Probing bus 0 at eisa.0
+Oct  6 01:27:38 metasploitable kernel: [    7.114765] Cannot allocate resource for EISA slot 4
+Oct  6 01:27:38 metasploitable kernel: [    7.114827] EISA: Detected 0 cards.
+Oct  6 01:27:38 metasploitable kernel: [    7.114828] cpuidle: using governor ladder
+Oct  6 01:27:38 metasploitable kernel: [    7.114828] cpuidle: using governor menu
+Oct  6 01:27:38 metasploitable kernel: [    7.114856] NET: Registered protocol family 1
+Oct  6 01:27:38 metasploitable kernel: [    7.114865] Using IPI No-Shortcut mode
+Oct  6 01:27:38 metasploitable kernel: [    7.114875] registered taskstats version 1
+Oct  6 01:27:38 metasploitable kernel: [    7.114949]   Magic number: 14:927:465
+Oct  6 01:27:38 metasploitable kernel: [    7.114982] BIOS EDD facility v0.16 2004-Jun-25, 6 devices found
+Oct  6 01:27:38 metasploitable kernel: [    7.115069] Freeing unused kernel memory: 384k freed
+Oct  6 01:27:38 metasploitable kernel: [    7.183153] Clocksource tsc unstable (delta = -113881327 ns)
+Oct  6 01:27:38 metasploitable kernel: [    7.193520] Time: acpi_pm clocksource has been installed.
+Oct  6 01:27:38 metasploitable kernel: [    7.222876] fuse init (API version 7.9)
+Oct  6 01:27:38 metasploitable kernel: [    7.235868] device-mapper: uevent: version 1.0.3
+Oct  6 01:27:38 metasploitable kernel: [    7.235895] device-mapper: ioctl: 4.12.0-ioctl (2007-10-02) initialised: dm-devel@redhat.com
+Oct  6 01:27:38 metasploitable kernel: [    7.324726] SCSI subsystem initialized
+Oct  6 01:27:38 metasploitable kernel: [    7.335691] libata version 3.00 loaded.
+Oct  6 01:27:38 metasploitable kernel: [    7.341054] ata_piix 0000:00:01.1: version 2.12
+Oct  6 01:27:38 metasploitable kernel: [    7.341871] PCI: Setting latency timer of device 0000:00:01.1 to 64
+Oct  6 01:27:38 metasploitable kernel: [    7.346071] scsi0 : ata_piix
+Oct  6 01:27:38 metasploitable kernel: [    7.346527] scsi1 : ata_piix
+Oct  6 01:27:38 metasploitable kernel: [    7.346545] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct  6 01:27:38 metasploitable kernel: [    7.346546] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct  6 01:27:38 metasploitable kernel: [    7.359036] Intel(R) PRO/1000 Network Driver - version 7.3.20-k2-NAPI
+Oct  6 01:27:38 metasploitable kernel: [    7.359037] Copyright (c) 1999-2006 Intel Corporation.
+Oct  6 01:27:38 metasploitable kernel: [    7.371149] usbcore: registered new interface driver usbfs
+Oct  6 01:27:38 metasploitable kernel: [    7.371160] usbcore: registered new interface driver hub
+Oct  6 01:27:38 metasploitable kernel: [    7.374074] usbcore: registered new device driver usb
+Oct  6 01:27:38 metasploitable kernel: [    7.377608] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct  6 01:27:38 metasploitable kernel: [    7.663516] ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct  6 01:27:38 metasploitable kernel: [    7.663525] ata1.01: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct  6 01:27:38 metasploitable kernel: [    7.663526] ata1.01: 16777216 sectors, multi 128: LBA 
+Oct  6 01:27:38 metasploitable kernel: [    7.824684] ata1.00: configured for UDMA/33
+Oct  6 01:27:38 metasploitable kernel: [    7.825388] ata1.01: configured for UDMA/33
+Oct  6 01:27:38 metasploitable kernel: [    8.005391] scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct  6 01:27:38 metasploitable kernel: [    8.005569] scsi 0:0:1:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct  6 01:27:38 metasploitable kernel: [    8.006573] ACPI: PCI Interrupt 0000:00:03.0[A] -> GSI 19 (level, low) -> IRQ 16
+Oct  6 01:27:38 metasploitable kernel: [    8.006630] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Oct  6 01:27:38 metasploitable kernel: [    8.453986] e1000: 0000:00:03.0: e1000_probe: (PCI:33MHz:32-bit) 08:00:27:67:af:36
+Oct  6 01:27:38 metasploitable kernel: [    8.518255] e1000: eth0: e1000_probe: Intel(R) PRO/1000 Network Connection
+Oct  6 01:27:38 metasploitable kernel: [    8.518807] ACPI: PCI Interrupt 0000:00:06.0[A] -> GSI 22 (level, low) -> IRQ 17
+Oct  6 01:27:38 metasploitable kernel: [    8.518957] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Oct  6 01:27:38 metasploitable kernel: [    8.518973] ohci_hcd 0000:00:06.0: OHCI Host Controller
+Oct  6 01:27:38 metasploitable kernel: [    8.519077] ohci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 1
+Oct  6 01:27:38 metasploitable kernel: [    8.519195] ohci_hcd 0000:00:06.0: irq 17, io mem 0xf0804000
+Oct  6 01:27:38 metasploitable kernel: [    8.579731] usb usb1: configuration #1 chosen from 1 choice
+Oct  6 01:27:38 metasploitable kernel: [    8.579747] hub 1-0:1.0: USB hub found
+Oct  6 01:27:38 metasploitable kernel: [    8.579827] hub 1-0:1.0: 12 ports detected
+Oct  6 01:27:38 metasploitable kernel: [    8.690431] ACPI: PCI Interrupt 0000:00:0b.0[A] -> GSI 19 (level, low) -> IRQ 16
+Oct  6 01:27:38 metasploitable kernel: [    8.690481] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Oct  6 01:27:38 metasploitable kernel: [    8.690496] ehci_hcd 0000:00:0b.0: EHCI Host Controller
+Oct  6 01:27:38 metasploitable kernel: [    8.690505] ehci_hcd 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Oct  6 01:27:38 metasploitable kernel: [    8.690863] ehci_hcd 0000:00:0b.0: irq 16, io mem 0xf0805000
+Oct  6 01:27:38 metasploitable kernel: [    8.709432] ehci_hcd 0000:00:0b.0: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004
+Oct  6 01:27:38 metasploitable kernel: [    8.709496] usb usb2: configuration #1 chosen from 1 choice
+Oct  6 01:27:38 metasploitable kernel: [    8.709503] hub 2-0:1.0: USB hub found
+Oct  6 01:27:38 metasploitable kernel: [    8.709505] hub 2-0:1.0: 12 ports detected
+Oct  6 01:27:38 metasploitable kernel: [    8.820822] ahci 0000:00:0d.0: version 3.0
+Oct  6 01:27:38 metasploitable kernel: [    8.821193] ACPI: PCI Interrupt 0000:00:0d.0[A] -> GSI 21 (level, low) -> IRQ 18
+Oct  6 01:27:38 metasploitable kernel: [    9.837566] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct  6 01:27:38 metasploitable kernel: [    9.837570] ahci 0000:00:0d.0: flags: 64bit ncq stag only 
+Oct  6 01:27:38 metasploitable kernel: [    9.837651] PCI: Setting latency timer of device 0000:00:0d.0 to 64
+Oct  6 01:27:38 metasploitable kernel: [    9.838651] scsi2 : ahci
+Oct  6 01:27:38 metasploitable kernel: [    9.838732] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 18
+Oct  6 01:27:38 metasploitable kernel: [   10.168911] ata3: SATA link down (SStatus 0 SControl 300)
+Oct  6 01:27:38 metasploitable kernel: [   10.172327] Driver 'sd' needs updating - please use bus_type methods
+Oct  6 01:27:38 metasploitable kernel: [   10.172674] sd 0:0:1:0: [sda] 16777216 512-byte hardware sectors (8590 MB)
+Oct  6 01:27:38 metasploitable kernel: [   10.172677] sd 0:0:1:0: [sda] Write Protect is off
+Oct  6 01:27:38 metasploitable kernel: [   10.172677] sd 0:0:1:0: [sda] Mode Sense: 00 3a 00 00
+Oct  6 01:27:38 metasploitable kernel: [   10.172681] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct  6 01:27:38 metasploitable kernel: [   10.172695] sd 0:0:1:0: [sda] 16777216 512-byte hardware sectors (8590 MB)
+Oct  6 01:27:38 metasploitable kernel: [   10.172697] sd 0:0:1:0: [sda] Write Protect is off
+Oct  6 01:27:38 metasploitable kernel: [   10.172697] sd 0:0:1:0: [sda] Mode Sense: 00 3a 00 00
+Oct  6 01:27:38 metasploitable kernel: [   10.172700] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct  6 01:27:38 metasploitable kernel: [   10.172701]  sda: sda1 sda2 < sda5 >
+Oct  6 01:27:38 metasploitable kernel: [   10.173574] sd 0:0:1:0: [sda] Attached SCSI disk
+Oct  6 01:27:38 metasploitable kernel: [   10.173703] Driver 'sr' needs updating - please use bus_type methods
+Oct  6 01:27:38 metasploitable kernel: [   10.180653] sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct  6 01:27:38 metasploitable kernel: [   10.180654] Uniform CD-ROM driver Revision: 3.20
+Oct  6 01:27:38 metasploitable kernel: [   10.180673] sr 0:0:0:0: Attached scsi CD-ROM sr0
+Oct  6 01:27:38 metasploitable kernel: [   10.183109] sr 0:0:0:0: Attached scsi generic sg0 type 5
+Oct  6 01:27:38 metasploitable kernel: [   10.183117] sd 0:0:1:0: Attached scsi generic sg1 type 0
+Oct  6 01:27:38 metasploitable kernel: [   10.311588] Attempting manual resume
+Oct  6 01:27:38 metasploitable kernel: [   10.311589] swsusp: Resume From Partition 254:1
+Oct  6 01:27:38 metasploitable kernel: [   10.311590] PM: Checking swsusp image.
+Oct  6 01:27:38 metasploitable kernel: [   10.311969] PM: Resume from disk failed.
+Oct  6 01:27:38 metasploitable kernel: [   10.322607] EXT3-fs: INFO: recovery required on readonly filesystem.
+Oct  6 01:27:38 metasploitable kernel: [   10.322609] EXT3-fs: write access will be enabled during recovery.
+Oct  6 01:27:38 metasploitable kernel: [   10.465313] kjournald starting.  Commit interval 5 seconds
+Oct  6 01:27:38 metasploitable kernel: [   10.465324] EXT3-fs: dm-0: orphan cleanup on readonly fs
+Oct  6 01:27:38 metasploitable kernel: [   10.465327] ext3_orphan_cleanup: deleting unreferenced inode 245769
+Oct  6 01:27:38 metasploitable kernel: [   10.465370] ext3_orphan_cleanup: deleting unreferenced inode 245768
+Oct  6 01:27:38 metasploitable kernel: [   10.465372] ext3_orphan_cleanup: deleting unreferenced inode 245767
+Oct  6 01:27:38 metasploitable kernel: [   10.465373] ext3_orphan_cleanup: deleting unreferenced inode 245766
+Oct  6 01:27:38 metasploitable kernel: [   10.465374] ext3_orphan_cleanup: deleting unreferenced inode 245765
+Oct  6 01:27:38 metasploitable kernel: [   10.465375] ext3_orphan_cleanup: deleting unreferenced inode 245764
+Oct  6 01:27:38 metasploitable kernel: [   10.465376] EXT3-fs: dm-0: 6 orphan inodes deleted
+Oct  6 01:27:38 metasploitable kernel: [   10.465376] EXT3-fs: recovery complete.
+Oct  6 01:27:38 metasploitable kernel: [   10.468329] EXT3-fs: mounted filesystem with ordered data mode.
+Oct  6 01:27:38 metasploitable kernel: [   11.323868] input: Power Button (FF) as /devices/virtual/input/input2
+Oct  6 01:27:38 metasploitable kernel: [   11.360073] ACPI: Power Button (FF) [PWRF]
+Oct  6 01:27:38 metasploitable kernel: [   11.360162] input: Sleep Button (FF) as /devices/virtual/input/input3
+Oct  6 01:27:38 metasploitable kernel: [   11.386337] ACPI: Sleep Button (FF) [SLPF]
+Oct  6 01:27:38 metasploitable kernel: [   11.386431] ACPI: AC Adapter [AC] (on-line)
+Oct  6 01:27:38 metasploitable kernel: [   11.416042] input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Oct  6 01:27:38 metasploitable kernel: [   11.436985] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct  6 01:27:38 metasploitable kernel: [   11.437664] ACPI: Battery Slot [BAT0] (battery present)
+Oct  6 01:27:38 metasploitable kernel: [   11.521883] e1000: eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct  6 01:27:38 metasploitable kernel: [   11.614628] ACPI: PCI Interrupt 0000:00:05.0[A] -> GSI 21 (level, low) -> IRQ 18
+Oct  6 01:27:38 metasploitable kernel: [   11.614694] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Oct  6 01:27:38 metasploitable kernel: [   11.700904] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Oct  6 01:27:38 metasploitable kernel: [   11.713393] input: PC Speaker as /devices/platform/pcspkr/input/input6
+Oct  6 01:27:38 metasploitable kernel: [   11.960166] intel8x0_measure_ac97_clock: measured 59231 usecs
+Oct  6 01:27:38 metasploitable kernel: [   11.960167] intel8x0: clocking to 51692
+Oct  6 01:27:38 metasploitable kernel: [   12.696219] NET: Registered protocol family 17
+Oct  6 01:27:38 metasploitable kernel: [   13.111851] loop: module loaded
+Oct  6 01:27:38 metasploitable kernel: [   13.122765] lp: driver loaded but no devices found
+Oct  6 01:27:38 metasploitable kernel: [   13.239545] EXT3 FS on dm-0, internal journal
+Oct  6 01:27:38 metasploitable kernel: [   13.337125] kjournald starting.  Commit interval 5 seconds
+Oct  6 01:27:38 metasploitable kernel: [   13.337536] EXT3 FS on sda1, internal journal
+Oct  6 01:27:38 metasploitable kernel: [   13.337538] EXT3-fs: mounted filesystem with ordered data mode.
+Oct  6 01:27:38 metasploitable kernel: [   13.468237] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct  6 01:27:38 metasploitable kernel: [   14.551249] RPC: Registered udp transport module.
+Oct  6 01:27:38 metasploitable kernel: [   14.551250] RPC: Registered tcp transport module.
+Oct  6 01:27:39 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 01:27:39 metasploitable named[4050]: starting BIND 9.4.2 -u bind
+Oct  6 01:27:39 metasploitable named[4050]: found 1 CPU, using 1 worker thread
+Oct  6 01:27:39 metasploitable named[4050]: loading configuration from '/etc/bind/named.conf'
+Oct  6 01:27:39 metasploitable kernel: [   15.168424] NET: Registered protocol family 10
+Oct  6 01:27:39 metasploitable kernel: [   15.168481] lo: Disabled Privacy Extensions
+Oct  6 01:27:39 metasploitable named[4050]: listening on IPv6 interfaces, port 53
+Oct  6 01:27:39 metasploitable named[4050]: listening on IPv4 interface lo, 127.0.0.1#53
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: D.F.IP6.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: 8.E.F.IP6.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: 9.E.F.IP6.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: A.E.F.IP6.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: automatic empty zone: B.E.F.IP6.ARPA
+Oct  6 01:27:39 metasploitable named[4050]: command channel listening on 127.0.0.1#953
+Oct  6 01:27:39 metasploitable named[4050]: command channel listening on ::1#953
+Oct  6 01:27:39 metasploitable named[4050]: zone 0.in-addr.arpa/IN: loaded serial 1
+Oct  6 01:27:39 metasploitable named[4050]: zone 127.in-addr.arpa/IN: loaded serial 1
+Oct  6 01:27:39 metasploitable named[4050]: zone 255.in-addr.arpa/IN: loaded serial 1
+Oct  6 01:27:39 metasploitable named[4050]: zone localhost/IN: loaded serial 2
+Oct  6 01:27:39 metasploitable named[4050]: running
+Oct  6 01:27:39 metasploitable mysqld_safe[4194]: started
+Oct  6 01:27:39 metasploitable mysqld[4198]: 261006  1:27:39  InnoDB: Started; log sequence number 0 43675
+Oct  6 01:27:39 metasploitable mysqld[4198]: 261006  1:27:39 [Note] /usr/sbin/mysqld: ready for connections.
+Oct  6 01:27:39 metasploitable mysqld[4198]: Version: '5.0.51a-3ubuntu5'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Oct  6 01:27:40 metasploitable /etc/mysql/debian-start[4234]: Upgrading MySQL tables if necessary.
+Oct  6 01:27:40 metasploitable /etc/mysql/debian-start[4242]: Looking for 'mysql' in: /usr/bin/mysql
+Oct  6 01:27:40 metasploitable /etc/mysql/debian-start[4242]: Looking for 'mysqlcheck' in: /usr/bin/mysqlcheck
+Oct  6 01:27:40 metasploitable /etc/mysql/debian-start[4242]: This installation of MySQL is already upgraded to 5.0.51a, use --force if you still need to run mysql_upgrade
+Oct  6 01:27:40 metasploitable /etc/mysql/debian-start[4250]: Checking for insecure root accounts.
+Oct  6 01:27:40 metasploitable /etc/mysql/debian-start[4258]: WARNING: mysql.user contains 1 root accounts without password!
+Oct  6 01:27:40 metasploitable /etc/mysql/debian-start[4260]: Checking for crashed MySQL tables.
+Oct  6 01:27:43 metasploitable distccd[4300]: (dcc_setup_daemon_path) daemon's PATH is /sbin:/bin:/usr/sbin:/usr/bin
+Oct  6 01:27:43 metasploitable distccd[4300]: (dcc_listen_by_addr) listening on :::3632
+Oct  6 01:27:43 metasploitable distccd[4300]: (dcc_standalone_server) 1 CPU online on this server
+Oct  6 01:27:43 metasploitable distccd[4300]: (dcc_standalone_server) allowing up to 3 active jobs
+Oct  6 01:27:43 metasploitable distccd[4301]: (dcc_log_daemon_started) preforking daemon started (2.18.3 i486-pc-linux-gnu, built May  1 2007 10:25:31)
+Oct  6 01:27:43 metasploitable kernel: [   19.853184] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Oct  6 01:27:43 metasploitable kernel: [   19.879500] NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Oct  6 01:27:43 metasploitable kernel: [   19.880075] NFSD: starting 90-second grace period
+Oct  6 01:27:43 metasploitable postfix/master[4430]: daemon started -- version 2.5.1, configuration /etc/postfix
+Oct  6 01:27:44 metasploitable xinetd[4455]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Oct  6 01:27:44 metasploitable xinetd[4455]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Oct  6 01:27:44 metasploitable xinetd[4455]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Oct  6 01:27:44 metasploitable xinetd[4455]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Oct  6 01:27:44 metasploitable xinetd[4455]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=26]
+Oct  6 01:27:44 metasploitable xinetd[4455]: Reading included configuration file: /etc/xinetd.d/vsftpd [file=/etc/xinetd.d/vsftpd] [line=28]
+Oct  6 01:27:44 metasploitable xinetd[4455]: added service telnet [file=/etc/inetd.conf] [line=2]
+Oct  6 01:27:44 metasploitable xinetd[4455]: added service tftp [file=/etc/inetd.conf] [line=4]
+Oct  6 01:27:44 metasploitable xinetd[4455]: added service shell [file=/etc/inetd.conf] [line=5]
+Oct  6 01:27:44 metasploitable xinetd[4455]: added service login [file=/etc/inetd.conf] [line=6]
+Oct  6 01:27:44 metasploitable xinetd[4455]: added service exec [file=/etc/inetd.conf] [line=7]
+Oct  6 01:27:44 metasploitable xinetd[4455]: added service ingreslock [file=/etc/inetd.conf] [line=8]
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing chargen
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing chargen
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing daytime
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing daytime
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing discard
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing discard
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing echo
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing echo
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing time
+Oct  6 01:27:44 metasploitable xinetd[4455]: removing time
+Oct  6 01:27:44 metasploitable xinetd[4455]: xinetd Version 2.3.14 started with libwrap loadavg options compiled in.
+Oct  6 01:27:44 metasploitable xinetd[4455]: Started working: 7 available services
+Oct  6 01:27:44 metasploitable /usr/sbin/cron[4518]: (CRON) INFO (pidfile fd = 3)
+Oct  6 01:27:44 metasploitable /usr/sbin/cron[4519]: (CRON) STARTUP (fork ok)
+Oct  6 01:27:44 metasploitable /usr/sbin/cron[4519]: (CRON) INFO (Running @reboot jobs)
+Oct  6 01:27:44 metasploitable tomcat5.5: The java-gcj-compat-dev environment currently doesn't
+Oct  6 01:27:44 metasploitable tomcat5.5: support a security manager. See README.Debian.
+Oct  6 01:27:44 metasploitable jsvc.exec[4548]: Created MBeanServer with ID: -yh863t:muw8m2we.0:metasploitable:1 
+Oct  6 01:27:45 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:45 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on the
+Oct  6 01:27:45 metasploitable jsvc.exec[4548]:  java.library.path: /usr/lib/../lib/gcj-4.2-81:/usr/lib/jni 
+Oct  6 01:27:45 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:45 AM org.apache.coyote.http11.Http11BaseProtocol init INFO: Initializing Coyote HTTP/1.1 on http-8180 
+Oct  6 01:27:45 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:45 AM org.apache.catalina.startup.Catalina load INFO: Initialization processed in 555 ms 
+Oct  6 01:27:45 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:45 AM org.apache.catalina.core.StandardService start INFO: Starting service Catalina 
+Oct  6 01:27:45 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:45 AM org.apache.catalina.core.StandardEngine start INFO: Starting Servlet Engine: Apache Tomcat/5.5 
+Oct  6 01:27:46 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:46 AM org.apache.catalina.core.StandardHost start INFO: XML validation disabled 
+Oct  6 01:27:46 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:46 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: contextInitialized() 
+Oct  6 01:27:46 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:46 AM org.apache.catalina.core.ApplicationContext log INFO: SessionListener: contextInitialized() 
+Oct  6 01:27:46 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:46 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.commons.modeler.Registry@798820') 
+Oct  6 01:27:46 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:46 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'mx4j.server.MX4JMBeanServer@46ac30') 
+Oct  6 01:27:47 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 01:27:47 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:47 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: contextInitialized() 
+Oct  6 01:27:47 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:47 AM org.apache.catalina.core.ApplicationContext log INFO: SessionListener: contextInitialized() 
+Oct  6 01:27:47 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:47 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.commons.modeler.Registry@798820') 
+Oct  6 01:27:47 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:47 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'mx4j.server.MX4JMBeanServer@46ac30') 
+Oct  6 01:27:48 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:48 AM org.apache.catalina.core.ApplicationContext log INFO: org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balanc
+Oct  6 01:27:48 metasploitable jsvc.exec[4548]: er.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramVa
+Oct  6 01:27:48 metasploitable jsvc.exec[4548]: lue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]] 
+Oct  6 01:27:49 metasploitable kernel: [   25.443023] eth0: no IPv6 routers present
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:49 AM org.apache.coyote.http11.Http11BaseProtocol start INFO: Starting Coyote HTTP/1.1 on http-8180 
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:49 AM org.apache.commons.modeler.modules.MbeansDescriptorsDOMSource execute SEVERE: Error reading descriptors  gnu.xml.dom.ls.DomLSException    at gnu.xml.dom.ls.DomLSParser.doParse(libg
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: cj.so.81)    at gnu.xml.dom.ls.DomLSParser.parse(libgcj.so.81)    at gnu.xml.dom.DomDocumentBuilder.parse(libgcj.so.81)    at org.apache.commons.modeler.util.DomUtil.readXml(DomUtil.java:257)    at or
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: g.apache.commons.modeler.modules.MbeansDescriptorsDOMSource.execute(MbeansDescriptorsDOMSource.java:88)    at org.apache.commons.modeler.modules.MbeansDescriptorsDOMSource.loadDescriptors(MbeansDescri
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: ptorsDOMSource.java:78)    at org.apache.commons.modeler.Registry.load(Registry.java:792)    at org.apache.commons.modeler.Registry.loadDescriptors(Registry.java:901)    at org.apache.commons.modeler.
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: Registry.loadDescriptors(Registry.java:882)    at org.apache.commons.modeler.Registry.findDescriptor(Registry.java:961)    at org.apache.commons.modeler.Registry.findManagedBean(Registry.java:666)    
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: at org.apache.commons.modeler.Registry.findManagedBean(Registry.java:1015)    at org.apache.commons.modeler.Registry.registerComponent(Registry.java:832)    at org.apache.catalina.connector.Connector.
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: start(Connector.java:1077)    at org.apache.catalina.core.StandardService.start(StandardService.java:457)    at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)    at org.apache.
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: catalina.startup.Catalina.start(Catalina.java:552)    at java.lang.reflect.Method.invoke(libgcj.so.81)    at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)    at java.lang.reflect.Met
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: hod.invoke(libgcj.so.81)    at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177) Caused by: org.xml.sax.SAXParseException    at gnu.xml.stream.SAXParser.parse(libgcj.so.81)  
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]:   at gnu.xml.dom.ls.DomLSParser.doParse(libgcj.so.81)    ...20 more Caused by: javax.xml.stream.XMLStreamException    at gnu.xml.stream.XMLParser.next(libgcj.so.81)    at gnu.xml.stream.XMLParser.hasN
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: ext(libgcj.so.81)    at gnu.xml.stream.SAXParser.parse(libgcj.so.81)    ...21 more Caused by: java.io.IOException: error resolving http://jakarta.apache.org/commons/dtds/mbeans-descriptors.dtd    at g
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: nu.xml.stream.XMLParser.resolve(libgcj.so.81)    at gnu.xml.stream.XMLParser.pushInput(libgcj.so.81)    at gnu.xml.stream.XMLParser.readDoctypeDecl(libgcj.so.81)    at gnu.xml.stream.XMLParser.next(li
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: bgcj.so.81)    ...23 more Caused by: java.net.UnknownHostException: jakarta.apache.org:80    at gnu.java.net.PlainSocketImpl.connect(libgcj.so.81)    at java.net.Socket.connect(libgcj.so.81)    at jav
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: a.net.Socket.connect(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPConnection.getSocket(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPConnection.getOutputStream(libgcj.so.81)    at gnu.java.
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: net.protocol.http.Request.dispatch(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPURLConnection.connect(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPURLConnection.getInputStream(libgcj.so.81
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: )    at java.net.URL.openStream(libgcj.so.81)    at gnu.xml.stream.XMLParser.resolve(libgcj.so.81)    ...26 more 
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:49 AM org.apache.jk.common.ChannelSocket init INFO: JK: ajp13 listening on /0.0.0.0:8009 
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:49 AM org.apache.jk.server.JkMain start INFO: Jk running ID=0 time=0/85  config=null 
+Oct  6 01:27:49 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:49 AM org.apache.catalina.storeconfig.StoreLoader load INFO: Find registry server-registry.xml at classpath resource 
+Oct  6 01:27:50 metasploitable jsvc.exec[4548]: 6-Oct-26 1:27:50 AM org.apache.catalina.startup.Catalina start INFO: Server startup in 4375 ms 
+Oct  6 01:27:57 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  6 01:28:09 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Oct  6 01:28:29 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 01:28:40 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 01:28:40 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 01:28:40 metasploitable ntpdate[4721]: can't find host ntp.ubuntu.com 
+Oct  6 01:28:40 metasploitable ntpdate[4721]: no servers can be used, exiting
+Oct  6 01:28:40 metasploitable postfix/master[4430]: reload configuration /etc/postfix
+Oct  6 01:30:39 metasploitable named[4050]: listening on IPv4 interface eth0, 192.168.56.20#53
+Oct  6 01:35:06 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct  6 01:35:12 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  6 01:35:24 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  6 01:35:36 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Oct  6 01:35:56 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 01:36:07 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 01:36:07 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 01:39:01 metasploitable /USR/SBIN/CRON[4768]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Oct  6 01:40:06 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 01:40:10 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 01:40:20 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 01:40:30 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  6 01:40:43 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Oct  6 01:41:00 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  6 01:41:07 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 01:41:07 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 01:44:55 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  6 01:45:02 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  6 01:45:09 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  6 01:45:23 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 20
+Oct  6 01:45:43 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  6 01:45:56 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 01:45:56 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 01:49:24 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 01:49:28 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 01:49:32 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct  6 01:49:37 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct  6 01:49:42 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  6 01:49:55 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Oct  6 01:50:11 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Oct  6 01:50:20 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct  6 01:50:25 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 01:50:25 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 01:55:17 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 01:55:25 metasploitable last message repeated 2 times
+Oct  6 01:55:29 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 01:55:39 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Oct  6 01:55:56 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 01:56:06 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Oct  6 01:56:15 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct  6 01:56:18 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 01:56:18 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:00:59 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct  6 02:01:05 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  6 02:01:18 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 02:01:29 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  6 02:01:43 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  6 02:01:57 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct  6 02:02:00 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:02:00 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:08:56 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct  6 02:09:01 metasploitable /USR/SBIN/CRON[4829]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Oct  6 02:09:02 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 02:09:12 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Oct  6 02:09:27 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  6 02:09:41 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Oct  6 02:09:57 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:09:57 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:12:46 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 02:12:50 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 02:13:01 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 02:13:11 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  6 02:13:35 metasploitable last message repeated 2 times
+Oct  6 02:13:47 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:13:47 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:17:01 metasploitable /USR/SBIN/CRON[4857]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  6 02:20:19 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct  6 02:20:22 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 02:20:26 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 02:20:37 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 02:20:48 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Oct  6 02:21:06 metasploitable last message repeated 2 times
+Oct  6 02:21:15 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct  6 02:21:20 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:21:20 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:26:45 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 02:26:53 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 02:27:01 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 02:27:12 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Oct  6 02:27:29 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 02:27:39 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  6 02:27:46 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:27:46 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:34:49 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  6 02:34:56 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 02:35:06 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  6 02:35:18 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 19
+Oct  6 02:35:37 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 9
+Oct  6 02:35:46 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 02:35:50 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:35:50 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:39:01 metasploitable /USR/SBIN/CRON[4894]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Oct  6 02:40:46 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 02:40:54 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Oct  6 02:41:09 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 02:41:19 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Oct  6 02:41:34 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  6 02:41:47 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:41:47 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:48:00 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 3
+Oct  6 02:48:03 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 02:48:11 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 12
+Oct  6 02:48:23 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 7
+Oct  6 02:48:30 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 02:48:50 metasploitable last message repeated 2 times
+Oct  6 02:49:00 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 1
+Oct  6 02:49:01 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:49:01 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 02:55:48 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 02:55:56 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Oct  6 02:56:12 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 16
+Oct  6 02:56:28 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 13
+Oct  6 02:56:41 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Oct  6 02:56:49 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 02:56:49 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 03:02:40 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 03:02:44 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 03:02:54 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 15
+Oct  6 03:03:09 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 17
+Oct  6 03:03:26 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 03:03:37 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 4
+Oct  6 03:03:41 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 03:03:41 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct  6 03:09:01 metasploitable /USR/SBIN/CRON[4953]: (root) CMD (  [ -x /usr/lib/php5/maxlifetime ] && [ -d /var/lib/php5 ] && find /var/lib/php5/ -type f -cmin +$(/usr/lib/php5/maxlifetime) -print0 | xargs -r -0 rm)
+Oct  6 03:10:40 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 5
+Oct  6 03:10:45 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14
+Oct  6 03:10:59 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 11
+Oct  6 03:11:10 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 21
+Oct  6 03:11:31 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct  6 03:11:41 metasploitable dhclient: No DHCPOFFERS received.
+Oct  6 03:11:41 metasploitable dhclient: No working leases in persistent database - sleeping.
+Oct 11 03:56:00 metasploitable syslogd 1.5.0#1ubuntu1: restart.
+Oct 11 03:56:00 metasploitable kernel: Inspecting /boot/System.map-2.6.24-16-server
+Oct 11 03:56:00 metasploitable kernel: Loaded 28738 symbols from /boot/System.map-2.6.24-16-server.
+Oct 11 03:56:00 metasploitable kernel: Symbols match kernel version 2.6.24.
+Oct 11 03:56:00 metasploitable kernel: Loaded 15470 symbols from 60 modules.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Linux version 2.6.24-16-server (buildd@palmer) (gcc version 4.2.3 (Ubuntu 4.2.3-2ubuntu7)) #1 SMP Thu Apr 10 13:58:00 UTC 2008 (Ubuntu 2.6.24-16.30-server)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009fc00 (usable)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 000000000009fc00 - 00000000000a0000 (reserved)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 000000003fff0000 (usable)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 000000003fff0000 - 0000000040000000 (ACPI data)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fec00000 - 00000000fec01000 (reserved)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fee00000 - 00000000fee01000 (reserved)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] 127MB HIGHMEM available.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] 896MB LOWMEM available.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] found SMP MP-table at 0009fbf0
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Entering add_active_range(0, 0, 262128) 0 entries of 256 used
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Zone PFN ranges:
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   DMA             0 ->     4096
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   Normal       4096 ->   229376
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   HighMem    229376 ->   262128
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Movable zone start PFN for each node
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] early_node_map[1] active PFN ranges
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]     0:        0 ->   262128
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] On node 0 totalpages: 262128
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   DMA zone: 32 pages used for memmap
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   DMA zone: 0 pages reserved
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   DMA zone: 4064 pages, LIFO batch:0
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   Normal zone: 1760 pages used for memmap
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   Normal zone: 223520 pages, LIFO batch:31
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   HighMem zone: 255 pages used for memmap
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   HighMem zone: 32497 pages, LIFO batch:7
+Oct 11 03:56:00 metasploitable kernel: [    0.000000]   Movable zone: 0 pages used for memmap
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] DMI 2.5 present.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: RSDP signature @ 0xC00E0000 checksum 0
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: RSDP 000E0000, 0024 (r2 VBOX  )
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: XSDT 3FFF0030, 003C (r1 VBOX   VBOXXSDT        1 ASL        61)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: FACP 3FFF00F0, 00F4 (r4 VBOX   VBOXFACP        1 ASL        61)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: DSDT 3FFF02E0, 2353 (r2 VBOX   VBOXBIOS        2 VBOX    2AC32)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: FACS 3FFF0200, 0040
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: APIC 3FFF0240, 0054 (r2 VBOX   VBOXAPIC        1 ASL        61)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: SSDT 3FFF02A0, 0038 (r1 VBOX   VBOXCPUT        2 VBOX    2AC32)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Processor #0 14:10 APIC version 20
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: IRQ2 used by override.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Enabling APIC mode:  Flat.  Using 1 I/O APICs
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Allocating PCI resources starting at 50000000 (gap: 40000000:bec00000)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 000000000009f000 - 00000000000a0000
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 00000000000a0000 - 00000000000f0000
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] swsusp: Registered nosave memory region: 00000000000f0000 - 0000000000100000
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 260081
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Kernel command line: root=/dev/mapper/metasploitable-root ro quiet splash
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] mapped APIC to ffffb000 (fee00000)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] mapped IOAPIC to ffffa000 (fec00000)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Enabling fast FPU save and restore... done.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Enabling unmasked SIMD FPU exception support... done.
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Initializing CPU#0
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] PID hash table entries: 4096 (order: 12, 16384 bytes)
+Oct 11 03:56:00 metasploitable kernel: [    0.000000] Detected 2994.748 MHz processor.
+Oct 11 03:56:00 metasploitable kernel: [    5.469150] Console: colour VGA+ 80x25
+Oct 11 03:56:00 metasploitable kernel: [    5.469153] console [tty0] enabled
+Oct 11 03:56:00 metasploitable kernel: [    5.471051] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Oct 11 03:56:00 metasploitable kernel: [    5.472338] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Oct 11 03:56:00 metasploitable kernel: [    5.481184] Memory: 1026828k/1048512k available (2255k kernel code, 21028k reserved, 1032k data, 384k init, 131008k highmem)
+Oct 11 03:56:00 metasploitable kernel: [    5.481189] virtual kernel memory layout:
+Oct 11 03:56:00 metasploitable kernel: [    5.481189]     fixmap  : 0xfff4c000 - 0xfffff000   ( 716 kB)
+Oct 11 03:56:00 metasploitable kernel: [    5.481190]     pkmap   : 0xffc00000 - 0xffe00000   (2048 kB)
+Oct 11 03:56:00 metasploitable kernel: [    5.481190]     vmalloc : 0xf8800000 - 0xffbfe000   ( 115 MB)
+Oct 11 03:56:00 metasploitable kernel: [    5.481191]     lowmem  : 0xc0000000 - 0xf8000000   ( 896 MB)
+Oct 11 03:56:00 metasploitable kernel: [    5.481191]       .init : 0xc043c000 - 0xc049c000   ( 384 kB)
+Oct 11 03:56:00 metasploitable kernel: [    5.481191]       .data : 0xc0333e95 - 0xc0435fe4   (1032 kB)
+Oct 11 03:56:00 metasploitable kernel: [    5.481192]       .text : 0xc0100000 - 0xc0333e95   (2255 kB)
+Oct 11 03:56:00 metasploitable kernel: [    5.481193] Checking if this processor honours the WP bit even in supervisor mode... Ok.
+Oct 11 03:56:00 metasploitable kernel: [    5.481262] SLUB: Genslabs=11, HWalign=64, Order=0-1, MinObjects=4, CPUs=1, Nodes=1
+Oct 11 03:56:00 metasploitable kernel: [    5.637524] Calibrating delay using timer specific routine.. 6437.22 BogoMIPS (lpj=32186112)
+Oct 11 03:56:00 metasploitable kernel: [    5.637620] Security Framework initialized
+Oct 11 03:56:00 metasploitable kernel: [    5.637623] SELinux:  Disabled at boot.
+Oct 11 03:56:00 metasploitable kernel: [    5.637662] AppArmor: AppArmor initialized
+Oct 11 03:56:00 metasploitable kernel: [    5.637665] Failure registering capabilities with primary security module.
+Oct 11 03:56:00 metasploitable kernel: [    5.637671] Mount-cache hash table entries: 512
+Oct 11 03:56:00 metasploitable kernel: [    5.637940] Initializing cgroup subsys ns
+Oct 11 03:56:00 metasploitable kernel: [    5.637943] Initializing cgroup subsys cpuacct
+Oct 11 03:56:00 metasploitable kernel: [    5.638296] CPU: After generic identify, caps: 178bfbff 28100000 00000000 00000000 f6da3203 00000000 00000121 00000000
+Oct 11 03:56:00 metasploitable kernel: [    5.638548] CPU: L1 I cache: 64K, L1 D cache: 48K
+Oct 11 03:56:00 metasploitable kernel: [    5.638550] CPU: L2 cache: 2048K
+Oct 11 03:56:00 metasploitable kernel: [    5.638551] CPU: L3 cache: 24576K
+Oct 11 03:56:00 metasploitable kernel: [    5.638634] CPU: Hyper-Threading is disabled
+Oct 11 03:56:00 metasploitable kernel: [    5.638636] CPU: After all inits, caps: 178bfbff 28100000 00000000 00000140 f6da3203 00000000 00000121 00000000
+Oct 11 03:56:00 metasploitable kernel: [    5.638659] Compat vDSO mapped to ffffe000.
+Oct 11 03:56:00 metasploitable kernel: [    5.638755] Checking 'hlt' instruction... OK.
+Oct 11 03:56:00 metasploitable kernel: [    5.713784] SMP alternatives: switching to UP code
+Oct 11 03:56:00 metasploitable kernel: [    5.856399] Freeing SMP alternatives: 12k freed
+Oct 11 03:56:00 metasploitable kernel: [    5.856637] Early unpacking initramfs... done
+Oct 11 03:56:00 metasploitable kernel: [    6.329067] ACPI: Core revision 20070126
+Oct 11 03:56:00 metasploitable kernel: [    6.329166] ACPI: Looking for DSDT in initramfs... error, file /DSDT.aml not found.
+Oct 11 03:56:00 metasploitable kernel: [    6.329834] CPU0: Intel(R) Core(TM) Ultra 7 155H stepping 04
+Oct 11 03:56:00 metasploitable kernel: [    6.340412] Total of 1 processors activated (6437.22 BogoMIPS).
+Oct 11 03:56:00 metasploitable kernel: [    6.350222] ENABLING IO-APIC IRQs
+Oct 11 03:56:00 metasploitable kernel: [    6.352911] ..TIMER: vector=0x31 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 11 03:56:00 metasploitable kernel: [    6.563663] Brought up 1 CPUs
+Oct 11 03:56:00 metasploitable kernel: [    6.564679] CPU0 attaching sched-domain:
+Oct 11 03:56:00 metasploitable kernel: [    6.564682]  domain 0: span 01
+Oct 11 03:56:00 metasploitable kernel: [    6.564683]   groups: 01
+Oct 11 03:56:00 metasploitable kernel: [    6.564891] net_namespace: 64 bytes
+Oct 11 03:56:00 metasploitable kernel: [    6.564897] Booting paravirtualized kernel on bare hardware
+Oct 11 03:56:00 metasploitable kernel: [    6.566036] Time:  7:55:50  Date: 10/11/26
+Oct 11 03:56:00 metasploitable kernel: [    6.566080] NET: Registered protocol family 16
+Oct 11 03:56:00 metasploitable kernel: [    6.566517] EISA bus registered
+Oct 11 03:56:00 metasploitable kernel: [    6.566650] ACPI: bus type pci registered
+Oct 11 03:56:00 metasploitable kernel: [    6.567623] PCI: PCI BIOS revision 2.10 entry at 0xfda56, last bus=0
+Oct 11 03:56:00 metasploitable kernel: [    6.567624] PCI: Using configuration type 1
+Oct 11 03:56:00 metasploitable kernel: [    6.567627] Setting up standard PCI resources
+Oct 11 03:56:00 metasploitable kernel: [    6.571535] ACPI: EC: Look up EC in DSDT
+Oct 11 03:56:00 metasploitable kernel: [    6.580581] ACPI: Interpreter enabled
+Oct 11 03:56:00 metasploitable kernel: [    6.580584] ACPI: (supports S0 S1 S4 S5)
+Oct 11 03:56:00 metasploitable kernel: [    6.580593] ACPI: Using IOAPIC for interrupt routing
+Oct 11 03:56:00 metasploitable kernel: [    6.585272] ACPI: PCI Root Bridge [PCI0] (0000:00)
+Oct 11 03:56:00 metasploitable kernel: [    6.600689] PCI quirk: region 4000-403f claimed by PIIX4 ACPI
+Oct 11 03:56:00 metasploitable kernel: [    6.600741] PCI quirk: region 4100-410f claimed by PIIX4 SMB
+Oct 11 03:56:00 metasploitable kernel: [    6.605520] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Oct 11 03:56:00 metasploitable kernel: [    6.617844] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Oct 11 03:56:00 metasploitable kernel: [    6.618392] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Oct 11 03:56:00 metasploitable kernel: [    6.618548] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Oct 11 03:56:00 metasploitable kernel: [    6.618705] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Oct 11 03:56:00 metasploitable kernel: [    6.618843] Linux Plug and Play Support v0.97 (c) Adam Belay
+Oct 11 03:56:00 metasploitable kernel: [    6.618935] pnp: PnP ACPI init
+Oct 11 03:56:00 metasploitable kernel: [    6.618941] ACPI: bus type pnp registered
+Oct 11 03:56:00 metasploitable kernel: [    6.621091] pnp: PnP ACPI: found 4 devices
+Oct 11 03:56:00 metasploitable kernel: [    6.621093] ACPI: ACPI bus type pnp unregistered
+Oct 11 03:56:00 metasploitable kernel: [    6.621096] PnPBIOS: Disabled by ACPI PNP
+Oct 11 03:56:00 metasploitable kernel: [    6.621409] PCI: Using ACPI for IRQ routing
+Oct 11 03:56:00 metasploitable kernel: [    6.621412] PCI: If a device doesn't work, try "pci=routeirq".  If it helps, post a report
+Oct 11 03:56:00 metasploitable kernel: [    6.685146] NET: Registered protocol family 8
+Oct 11 03:56:00 metasploitable kernel: [    6.685148] NET: Registered protocol family 20
+Oct 11 03:56:00 metasploitable kernel: [    6.685202] NetLabel: Initializing
+Oct 11 03:56:00 metasploitable kernel: [    6.685203] NetLabel:  domain hash size = 128
+Oct 11 03:56:00 metasploitable kernel: [    6.685204] NetLabel:  protocols = UNLABELED CIPSOv4
+Oct 11 03:56:00 metasploitable kernel: [    6.685212] NetLabel:  unlabeled traffic allowed by default
+Oct 11 03:56:00 metasploitable kernel: [    6.685275] AppArmor: AppArmor Filesystem Enabled
+Oct 11 03:56:00 metasploitable kernel: [    6.694251] Time: tsc clocksource has been installed.
+Oct 11 03:56:00 metasploitable kernel: [    6.745347] NET: Registered protocol family 2
+Oct 11 03:56:00 metasploitable kernel: [    6.845242] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+Oct 11 03:56:00 metasploitable kernel: [    6.845628] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct 11 03:56:00 metasploitable kernel: [    6.849235] TCP bind hash table entries: 65536 (order: 7, 524288 bytes)
+Oct 11 03:56:00 metasploitable kernel: [    6.851467] TCP: Hash tables configured (established 131072 bind 65536)
+Oct 11 03:56:00 metasploitable kernel: [    6.851469] TCP reno registered
+Oct 11 03:56:00 metasploitable kernel: [    6.876667] checking if image is initramfs... it is
+Oct 11 03:56:00 metasploitable kernel: [    7.572244] Freeing initrd memory: 7743k freed
+Oct 11 03:56:00 metasploitable kernel: [    7.572694] audit: initializing netlink socket (disabled)
+Oct 11 03:56:00 metasploitable kernel: [    7.572701] audit(1791705350.789:1): initialized
+Oct 11 03:56:00 metasploitable kernel: [    7.572898] highmem bounce pool size: 64 pages
+Oct 11 03:56:00 metasploitable kernel: [    7.572900] Total HugeTLB memory allocated, 0
+Oct 11 03:56:00 metasploitable kernel: [    7.575773] VFS: Disk quotas dquot_6.5.1
+Oct 11 03:56:00 metasploitable kernel: [    7.575895] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Oct 11 03:56:00 metasploitable kernel: [    7.576217] io scheduler noop registered
+Oct 11 03:56:00 metasploitable kernel: [    7.576219] io scheduler anticipatory registered
+Oct 11 03:56:00 metasploitable kernel: [    7.576220] io scheduler deadline registered (default)
+Oct 11 03:56:00 metasploitable kernel: [    7.576226] io scheduler cfq registered
+Oct 11 03:56:00 metasploitable kernel: [    7.576244] Limiting direct PCI/PCI transfers.
+Oct 11 03:56:00 metasploitable kernel: [    7.576447] Activating ISA DMA hang workarounds.
+Oct 11 03:56:00 metasploitable kernel: [    7.576484] Boot video device is 0000:00:02.0
+Oct 11 03:56:00 metasploitable kernel: [    7.577541] isapnp: Scanning for PnP cards...
+Oct 11 03:56:00 metasploitable kernel: [    7.600247] Switched to high resolution mode on CPU 0
+Oct 11 03:56:00 metasploitable kernel: [    7.742074] Clocksource tsc unstable (delta = -349949869 ns)
+Oct 11 03:56:00 metasploitable kernel: [    7.752403] Time: acpi_pm clocksource has been installed.
+Oct 11 03:56:00 metasploitable kernel: [    8.041912] isapnp: No Plug & Play device found
+Oct 11 03:56:00 metasploitable kernel: [    8.066609] Real Time Clock Driver v1.12ac
+Oct 11 03:56:00 metasploitable kernel: [    8.066695] Serial: 8250/16550 driver $Revision: 1.90 $ 4 ports, IRQ sharing enabled
+Oct 11 03:56:00 metasploitable kernel: [    8.068316] RAMDISK driver initialized: 16 RAM disks of 65536K size 1024 blocksize
+Oct 11 03:56:00 metasploitable kernel: [    8.068367] input: Macintosh mouse button emulation as /devices/virtual/input/input0
+Oct 11 03:56:00 metasploitable kernel: [    8.068441] PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Oct 11 03:56:00 metasploitable kernel: [    8.070397] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 11 03:56:00 metasploitable kernel: [    8.070401] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 11 03:56:00 metasploitable kernel: [    8.092083] mice: PS/2 mouse device common for all mice
+Oct 11 03:56:00 metasploitable kernel: [    8.094458] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input1
+Oct 11 03:56:00 metasploitable kernel: [    8.094469] EISA: Probing bus 0 at eisa.0
+Oct 11 03:56:00 metasploitable kernel: [    8.094610] Cannot allocate resource for EISA slot 4
+Oct 11 03:56:00 metasploitable kernel: [    8.094744] EISA: Detected 0 cards.
+Oct 11 03:56:00 metasploitable kernel: [    8.094746] cpuidle: using governor ladder
+Oct 11 03:56:00 metasploitable kernel: [    8.094747] cpuidle: using governor menu
+Oct 11 03:56:00 metasploitable kernel: [    8.094795] NET: Registered protocol family 1
+Oct 11 03:56:00 metasploitable kernel: [    8.094811] Using IPI No-Shortcut mode
+Oct 11 03:56:00 metasploitable kernel: [    8.094828] registered taskstats version 1
+Oct 11 03:56:00 metasploitable kernel: [    8.094973]   Magic number: 14:482:925
+Oct 11 03:56:00 metasploitable kernel: [    8.095000]   hash matches device ptyxa
+Oct 11 03:56:00 metasploitable kernel: [    8.095017] BIOS EDD facility v0.16 2004-Jun-25, 6 devices found
+Oct 11 03:56:00 metasploitable kernel: [    8.095333] Freeing unused kernel memory: 384k freed
+Oct 11 03:56:00 metasploitable kernel: [    8.277338] fuse init (API version 7.9)
+Oct 11 03:56:00 metasploitable kernel: [    8.302765] device-mapper: uevent: version 1.0.3
+Oct 11 03:56:00 metasploitable kernel: [    8.302803] device-mapper: ioctl: 4.12.0-ioctl (2007-10-02) initialised: dm-devel@redhat.com
+Oct 11 03:56:00 metasploitable kernel: [    8.442956] SCSI subsystem initialized
+Oct 11 03:56:00 metasploitable kernel: [    8.459790] libata version 3.00 loaded.
+Oct 11 03:56:00 metasploitable kernel: [    8.469245] ata_piix 0000:00:01.1: version 2.12
+Oct 11 03:56:00 metasploitable kernel: [    8.469524] PCI: Setting latency timer of device 0000:00:01.1 to 64
+Oct 11 03:56:00 metasploitable kernel: [    8.474444] scsi0 : ata_piix
+Oct 11 03:56:00 metasploitable kernel: [    8.478620] scsi1 : ata_piix
+Oct 11 03:56:00 metasploitable kernel: [    8.478643] ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Oct 11 03:56:00 metasploitable kernel: [    8.478644] ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Oct 11 03:56:00 metasploitable kernel: [    8.494885] Intel(R) PRO/1000 Network Driver - version 7.3.20-k2-NAPI
+Oct 11 03:56:00 metasploitable kernel: [    8.494887] Copyright (c) 1999-2006 Intel Corporation.
+Oct 11 03:56:00 metasploitable kernel: [    8.516849] usbcore: registered new interface driver usbfs
+Oct 11 03:56:00 metasploitable kernel: [    8.516862] usbcore: registered new interface driver hub
+Oct 11 03:56:00 metasploitable kernel: [    8.522040] usbcore: registered new device driver usb
+Oct 11 03:56:00 metasploitable kernel: [    8.529002] ohci_hcd: 2006 August 04 USB 1.1 'Open' Host Controller (OHCI) Driver
+Oct 11 03:56:00 metasploitable kernel: [    8.790277] ata1.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Oct 11 03:56:00 metasploitable kernel: [    8.790293] ata1.01: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Oct 11 03:56:00 metasploitable kernel: [    8.790294] ata1.01: 16777216 sectors, multi 128: LBA 
+Oct 11 03:56:00 metasploitable kernel: [    8.950332] ata1.00: configured for UDMA/33
+Oct 11 03:56:00 metasploitable kernel: [    8.951598] ata1.01: configured for UDMA/33
+Oct 11 03:56:00 metasploitable kernel: [    9.136739] scsi 0:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Oct 11 03:56:00 metasploitable kernel: [    9.136950] scsi 0:0:1:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Oct 11 03:56:00 metasploitable kernel: [    9.138388] ACPI: PCI Interrupt 0000:00:03.0[A] -> GSI 19 (level, low) -> IRQ 16
+Oct 11 03:56:00 metasploitable kernel: [    9.138493] PCI: Setting latency timer of device 0000:00:03.0 to 64
+Oct 11 03:56:00 metasploitable kernel: [    9.716567] e1000: 0000:00:03.0: e1000_probe: (PCI:33MHz:32-bit) 08:00:27:67:af:36
+Oct 11 03:56:00 metasploitable kernel: [    9.789909] e1000: eth0: e1000_probe: Intel(R) PRO/1000 Network Connection
+Oct 11 03:56:00 metasploitable kernel: [    9.790058] ahci 0000:00:0d.0: version 3.0
+Oct 11 03:56:00 metasploitable kernel: [    9.790370] ACPI: PCI Interrupt 0000:00:0d.0[A] -> GSI 21 (level, low) -> IRQ 17
+Oct 11 03:56:00 metasploitable kernel: [   10.794581] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Oct 11 03:56:00 metasploitable kernel: [   10.794583] ahci 0000:00:0d.0: flags: 64bit ncq stag only 
+Oct 11 03:56:00 metasploitable kernel: [   10.794619] PCI: Setting latency timer of device 0000:00:0d.0 to 64
+Oct 11 03:56:00 metasploitable kernel: [   10.795103] scsi2 : ahci
+Oct 11 03:56:00 metasploitable kernel: [   10.795160] ata3: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 17
+Oct 11 03:56:00 metasploitable kernel: [   11.123353] ata3: SATA link down (SStatus 0 SControl 300)
+Oct 11 03:56:00 metasploitable kernel: [   11.124535] ACPI: PCI Interrupt 0000:00:06.0[A] -> GSI 22 (level, low) -> IRQ 18
+Oct 11 03:56:00 metasploitable kernel: [   11.124640] PCI: Setting latency timer of device 0000:00:06.0 to 64
+Oct 11 03:56:00 metasploitable kernel: [   11.124672] ohci_hcd 0000:00:06.0: OHCI Host Controller
+Oct 11 03:56:00 metasploitable kernel: [   11.124779] ohci_hcd 0000:00:06.0: new USB bus registered, assigned bus number 1
+Oct 11 03:56:00 metasploitable kernel: [   11.125041] ohci_hcd 0000:00:06.0: irq 18, io mem 0xf0804000
+Oct 11 03:56:00 metasploitable kernel: [   11.184933] usb usb1: configuration #1 chosen from 1 choice
+Oct 11 03:56:00 metasploitable kernel: [   11.184949] hub 1-0:1.0: USB hub found
+Oct 11 03:56:00 metasploitable kernel: [   11.185035] hub 1-0:1.0: 12 ports detected
+Oct 11 03:56:00 metasploitable kernel: [   11.295114] ACPI: PCI Interrupt 0000:00:0b.0[A] -> GSI 19 (level, low) -> IRQ 16
+Oct 11 03:56:00 metasploitable kernel: [   11.295230] PCI: Setting latency timer of device 0000:00:0b.0 to 64
+Oct 11 03:56:00 metasploitable kernel: [   11.295267] ehci_hcd 0000:00:0b.0: EHCI Host Controller
+Oct 11 03:56:00 metasploitable kernel: [   11.295289] ehci_hcd 0000:00:0b.0: new USB bus registered, assigned bus number 2
+Oct 11 03:56:00 metasploitable kernel: [   11.296364] ehci_hcd 0000:00:0b.0: irq 16, io mem 0xf0805000
+Oct 11 03:56:00 metasploitable kernel: [   11.312552] ehci_hcd 0000:00:0b.0: USB 2.0 started, EHCI 1.00, driver 10 Dec 2004
+Oct 11 03:56:00 metasploitable kernel: [   11.312730] usb usb2: configuration #1 chosen from 1 choice
+Oct 11 03:56:00 metasploitable kernel: [   11.312751] hub 2-0:1.0: USB hub found
+Oct 11 03:56:00 metasploitable kernel: [   11.312754] hub 2-0:1.0: 12 ports detected
+Oct 11 03:56:00 metasploitable kernel: [   11.425974] Driver 'sd' needs updating - please use bus_type methods
+Oct 11 03:56:00 metasploitable kernel: [   11.426304] sd 0:0:1:0: [sda] 16777216 512-byte hardware sectors (8590 MB)
+Oct 11 03:56:00 metasploitable kernel: [   11.426308] sd 0:0:1:0: [sda] Write Protect is off
+Oct 11 03:56:00 metasploitable kernel: [   11.426308] sd 0:0:1:0: [sda] Mode Sense: 00 3a 00 00
+Oct 11 03:56:00 metasploitable kernel: [   11.426312] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 11 03:56:00 metasploitable kernel: [   11.426327] sd 0:0:1:0: [sda] 16777216 512-byte hardware sectors (8590 MB)
+Oct 11 03:56:00 metasploitable kernel: [   11.426329] sd 0:0:1:0: [sda] Write Protect is off
+Oct 11 03:56:00 metasploitable kernel: [   11.426330] sd 0:0:1:0: [sda] Mode Sense: 00 3a 00 00
+Oct 11 03:56:00 metasploitable kernel: [   11.426333] sd 0:0:1:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Oct 11 03:56:00 metasploitable kernel: [   11.426333]  sda: sda1 sda2 < sda5 >
+Oct 11 03:56:00 metasploitable kernel: [   11.427111] sd 0:0:1:0: [sda] Attached SCSI disk
+Oct 11 03:56:00 metasploitable kernel: [   11.427357] Driver 'sr' needs updating - please use bus_type methods
+Oct 11 03:56:00 metasploitable kernel: [   11.432773] sr 0:0:0:0: Attached scsi generic sg0 type 5
+Oct 11 03:56:00 metasploitable kernel: [   11.432778] sd 0:0:1:0: Attached scsi generic sg1 type 0
+Oct 11 03:56:00 metasploitable kernel: [   11.445910] sr0: scsi3-mmc drive: 32x/32x xa/form2 tray
+Oct 11 03:56:00 metasploitable kernel: [   11.445912] Uniform CD-ROM driver Revision: 3.20
+Oct 11 03:56:00 metasploitable kernel: [   11.445928] sr 0:0:0:0: Attached scsi CD-ROM sr0
+Oct 11 03:56:00 metasploitable kernel: [   11.580079] Attempting manual resume
+Oct 11 03:56:00 metasploitable kernel: [   11.580081] swsusp: Resume From Partition 254:1
+Oct 11 03:56:00 metasploitable kernel: [   11.580082] PM: Checking swsusp image.
+Oct 11 03:56:00 metasploitable kernel: [   11.580424] PM: Resume from disk failed.
+Oct 11 03:56:00 metasploitable kernel: [   11.591384] EXT3-fs: INFO: recovery required on readonly filesystem.
+Oct 11 03:56:00 metasploitable kernel: [   11.591386] EXT3-fs: write access will be enabled during recovery.
+Oct 11 03:56:00 metasploitable kernel: [   11.696038] kjournald starting.  Commit interval 5 seconds
+Oct 11 03:56:00 metasploitable kernel: [   11.696049] EXT3-fs: dm-0: orphan cleanup on readonly fs
+Oct 11 03:56:00 metasploitable kernel: [   11.696052] ext3_orphan_cleanup: deleting unreferenced inode 245769
+Oct 11 03:56:00 metasploitable kernel: [   11.696120] ext3_orphan_cleanup: deleting unreferenced inode 245768
+Oct 11 03:56:00 metasploitable kernel: [   11.696122] ext3_orphan_cleanup: deleting unreferenced inode 245767
+Oct 11 03:56:00 metasploitable kernel: [   11.696124] ext3_orphan_cleanup: deleting unreferenced inode 245766
+Oct 11 03:56:00 metasploitable kernel: [   11.696126] ext3_orphan_cleanup: deleting unreferenced inode 245765
+Oct 11 03:56:00 metasploitable kernel: [   11.696127] ext3_orphan_cleanup: deleting unreferenced inode 245764
+Oct 11 03:56:00 metasploitable kernel: [   11.696129] EXT3-fs: dm-0: 6 orphan inodes deleted
+Oct 11 03:56:00 metasploitable kernel: [   11.696129] EXT3-fs: recovery complete.
+Oct 11 03:56:00 metasploitable kernel: [   11.699986] EXT3-fs: mounted filesystem with ordered data mode.
+Oct 11 03:56:00 metasploitable kernel: [   12.281308] input: Power Button (FF) as /devices/virtual/input/input2
+Oct 11 03:56:00 metasploitable kernel: [   12.320238] ACPI: Power Button (FF) [PWRF]
+Oct 11 03:56:00 metasploitable kernel: [   12.320334] input: Sleep Button (FF) as /devices/virtual/input/input3
+Oct 11 03:56:00 metasploitable kernel: [   12.363163] ACPI: Sleep Button (FF) [SLPF]
+Oct 11 03:56:00 metasploitable kernel: [   12.363255] ACPI: AC Adapter [AC] (on-line)
+Oct 11 03:56:00 metasploitable kernel: [   12.393324] input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Oct 11 03:56:00 metasploitable kernel: [   12.425123] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Oct 11 03:56:00 metasploitable kernel: [   12.425939] ACPI: Battery Slot [BAT0] (battery present)
+Oct 11 03:56:00 metasploitable kernel: [   12.557733] e1000: eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 11 03:56:00 metasploitable kernel: [   12.652678] input: PC Speaker as /devices/platform/pcspkr/input/input5
+Oct 11 03:56:00 metasploitable kernel: [   12.662775] ACPI: PCI Interrupt 0000:00:05.0[A] -> GSI 21 (level, low) -> IRQ 17
+Oct 11 03:56:00 metasploitable kernel: [   12.662883] PCI: Setting latency timer of device 0000:00:05.0 to 64
+Oct 11 03:56:00 metasploitable kernel: [   12.706302] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input6
+Oct 11 03:56:00 metasploitable kernel: [   13.008719] intel8x0_measure_ac97_clock: measured 65630 usecs
+Oct 11 03:56:00 metasploitable kernel: [   13.008720] intel8x0: clocking to 57277
+Oct 11 03:56:00 metasploitable kernel: [   13.771370] NET: Registered protocol family 17
+Oct 11 03:56:00 metasploitable kernel: [   14.001422] loop: module loaded
+Oct 11 03:56:00 metasploitable kernel: [   14.012696] lp: driver loaded but no devices found
+Oct 11 03:56:00 metasploitable kernel: [   14.134487] EXT3 FS on dm-0, internal journal
+Oct 11 03:56:00 metasploitable kernel: [   14.230712] kjournald starting.  Commit interval 5 seconds
+Oct 11 03:56:00 metasploitable kernel: [   14.231146] EXT3 FS on sda1, internal journal
+Oct 11 03:56:00 metasploitable kernel: [   14.231148] EXT3-fs: mounted filesystem with ordered data mode.
+Oct 11 03:56:00 metasploitable kernel: [   14.380149] ip_tables: (C) 2000-2006 Netfilter Core Team
+Oct 11 03:56:00 metasploitable kernel: [   15.505085] RPC: Registered udp transport module.
+Oct 11 03:56:00 metasploitable kernel: [   15.505087] RPC: Registered tcp transport module.
+Oct 11 03:56:00 metasploitable named[4055]: starting BIND 9.4.2 -u bind
+Oct 11 03:56:00 metasploitable named[4055]: found 1 CPU, using 1 worker thread
+Oct 11 03:56:00 metasploitable named[4055]: loading configuration from '/etc/bind/named.conf'
+Oct 11 03:56:00 metasploitable kernel: [   16.431467] NET: Registered protocol family 10
+Oct 11 03:56:00 metasploitable kernel: [   16.431523] lo: Disabled Privacy Extensions
+Oct 11 03:56:00 metasploitable named[4055]: listening on IPv6 interfaces, port 53
+Oct 11 03:56:00 metasploitable named[4055]: listening on IPv4 interface lo, 127.0.0.1#53
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: 254.169.IN-ADDR.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: 2.0.192.IN-ADDR.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: 255.255.255.255.IN-ADDR.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.IP6.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: D.F.IP6.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: 8.E.F.IP6.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: 9.E.F.IP6.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: A.E.F.IP6.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: automatic empty zone: B.E.F.IP6.ARPA
+Oct 11 03:56:00 metasploitable named[4055]: command channel listening on 127.0.0.1#953
+Oct 11 03:56:00 metasploitable named[4055]: command channel listening on ::1#953
+Oct 11 03:56:00 metasploitable named[4055]: zone 0.in-addr.arpa/IN: loaded serial 1
+Oct 11 03:56:00 metasploitable named[4055]: zone 127.in-addr.arpa/IN: loaded serial 1
+Oct 11 03:56:00 metasploitable named[4055]: zone 255.in-addr.arpa/IN: loaded serial 1
+Oct 11 03:56:00 metasploitable named[4055]: zone localhost/IN: loaded serial 2
+Oct 11 03:56:00 metasploitable named[4055]: running
+Oct 11 03:56:00 metasploitable mysqld_safe[4199]: started
+Oct 11 03:56:00 metasploitable mysqld[4203]: 261011  3:56:00  InnoDB: Started; log sequence number 0 43675
+Oct 11 03:56:00 metasploitable mysqld[4203]: 261011  3:56:00 [Note] /usr/sbin/mysqld: ready for connections.
+Oct 11 03:56:00 metasploitable mysqld[4203]: Version: '5.0.51a-3ubuntu5'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+Oct 11 03:56:01 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 6
+Oct 11 03:56:01 metasploitable /etc/mysql/debian-start[4239]: Upgrading MySQL tables if necessary.
+Oct 11 03:56:01 metasploitable /etc/mysql/debian-start[4246]: Looking for 'mysql' in: /usr/bin/mysql
+Oct 11 03:56:01 metasploitable /etc/mysql/debian-start[4246]: Looking for 'mysqlcheck' in: /usr/bin/mysqlcheck
+Oct 11 03:56:01 metasploitable /etc/mysql/debian-start[4246]: This installation of MySQL is already upgraded to 5.0.51a, use --force if you still need to run mysql_upgrade
+Oct 11 03:56:01 metasploitable /etc/mysql/debian-start[4254]: Checking for insecure root accounts.
+Oct 11 03:56:01 metasploitable /etc/mysql/debian-start[4261]: WARNING: mysql.user contains 1 root accounts without password!
+Oct 11 03:56:01 metasploitable /etc/mysql/debian-start[4263]: Checking for crashed MySQL tables.
+Oct 11 03:56:05 metasploitable distccd[4305]: (dcc_setup_daemon_path) daemon's PATH is /sbin:/bin:/usr/sbin:/usr/bin
+Oct 11 03:56:05 metasploitable distccd[4305]: (dcc_listen_by_addr) listening on :::3632
+Oct 11 03:56:05 metasploitable distccd[4305]: (dcc_standalone_server) 1 CPU online on this server
+Oct 11 03:56:05 metasploitable distccd[4305]: (dcc_standalone_server) allowing up to 3 active jobs
+Oct 11 03:56:05 metasploitable distccd[4306]: (dcc_log_daemon_started) preforking daemon started (2.18.3 i486-pc-linux-gnu, built May  1 2007 10:25:31)
+Oct 11 03:56:05 metasploitable kernel: [   21.064717] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Oct 11 03:56:05 metasploitable kernel: [   21.093563] NFSD: Using /var/lib/nfs/v4recovery as the NFSv4 state recovery directory
+Oct 11 03:56:05 metasploitable kernel: [   21.094622] NFSD: starting 90-second grace period
+Oct 11 03:56:05 metasploitable postfix/master[4435]: daemon started -- version 2.5.1, configuration /etc/postfix
+Oct 11 03:56:05 metasploitable xinetd[4460]: Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=14]
+Oct 11 03:56:05 metasploitable xinetd[4460]: Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=28]
+Oct 11 03:56:05 metasploitable xinetd[4460]: Reading included configuration file: /etc/xinetd.d/discard [file=/etc/xinetd.d/discard] [line=26]
+Oct 11 03:56:05 metasploitable xinetd[4460]: Reading included configuration file: /etc/xinetd.d/echo [file=/etc/xinetd.d/echo] [line=25]
+Oct 11 03:56:05 metasploitable xinetd[4460]: Reading included configuration file: /etc/xinetd.d/time [file=/etc/xinetd.d/time] [line=26]
+Oct 11 03:56:05 metasploitable xinetd[4460]: Reading included configuration file: /etc/xinetd.d/vsftpd [file=/etc/xinetd.d/vsftpd] [line=28]
+Oct 11 03:56:05 metasploitable xinetd[4460]: added service telnet [file=/etc/inetd.conf] [line=2]
+Oct 11 03:56:05 metasploitable xinetd[4460]: added service tftp [file=/etc/inetd.conf] [line=4]
+Oct 11 03:56:05 metasploitable xinetd[4460]: added service shell [file=/etc/inetd.conf] [line=5]
+Oct 11 03:56:05 metasploitable xinetd[4460]: added service login [file=/etc/inetd.conf] [line=6]
+Oct 11 03:56:05 metasploitable xinetd[4460]: added service exec [file=/etc/inetd.conf] [line=7]
+Oct 11 03:56:05 metasploitable xinetd[4460]: added service ingreslock [file=/etc/inetd.conf] [line=8]
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing chargen
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing chargen
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing daytime
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing daytime
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing discard
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing discard
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing echo
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing echo
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing time
+Oct 11 03:56:05 metasploitable xinetd[4460]: removing time
+Oct 11 03:56:05 metasploitable xinetd[4460]: xinetd Version 2.3.14 started with libwrap loadavg options compiled in.
+Oct 11 03:56:05 metasploitable xinetd[4460]: Started working: 7 available services
+Oct 11 03:56:05 metasploitable /usr/sbin/cron[4523]: (CRON) INFO (pidfile fd = 3)
+Oct 11 03:56:05 metasploitable /usr/sbin/cron[4524]: (CRON) STARTUP (fork ok)
+Oct 11 03:56:05 metasploitable /usr/sbin/cron[4524]: (CRON) INFO (Running @reboot jobs)
+Oct 11 03:56:05 metasploitable tomcat5.5: The java-gcj-compat-dev environment currently doesn't
+Oct 11 03:56:05 metasploitable tomcat5.5: support a security manager. See README.Debian.
+Oct 11 03:56:06 metasploitable jsvc.exec[4553]: Created MBeanServer with ID: -p02bck:mv3j44s5.0:metasploitable:1 
+Oct 11 03:56:07 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct 11 03:56:07 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:07 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent INFO: The Apache Tomcat Native library which allows optimal performance in production environments was not found on th
+Oct 11 03:56:07 metasploitable jsvc.exec[4553]: e java.library.path: /usr/lib/../lib/gcj-4.2-81:/usr/lib/jni 
+Oct 11 03:56:07 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:07 AM org.apache.coyote.http11.Http11BaseProtocol init INFO: Initializing Coyote HTTP/1.1 on http-8180 
+Oct 11 03:56:07 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:07 AM org.apache.catalina.startup.Catalina load INFO: Initialization processed in 982 ms 
+Oct 11 03:56:08 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:08 AM org.apache.catalina.core.StandardService start INFO: Starting service Catalina 
+Oct 11 03:56:08 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:08 AM org.apache.catalina.core.StandardEngine start INFO: Starting Servlet Engine: Apache Tomcat/5.5 
+Oct 11 03:56:08 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:08 AM org.apache.catalina.core.StandardHost start INFO: XML validation disabled 
+Oct 11 03:56:08 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:08 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: contextInitialized() 
+Oct 11 03:56:08 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:08 AM org.apache.catalina.core.ApplicationContext log INFO: SessionListener: contextInitialized() 
+Oct 11 03:56:08 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:08 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.commons.modeler.Registry@798960') 
+Oct 11 03:56:08 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:08 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'mx4j.server.MX4JMBeanServer@46ac30') 
+Oct 11 03:56:09 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:09 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: contextInitialized() 
+Oct 11 03:56:09 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:09 AM org.apache.catalina.core.ApplicationContext log INFO: SessionListener: contextInitialized() 
+Oct 11 03:56:09 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:09 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.Registry', 'org.apache.commons.modeler.Registry@798960') 
+Oct 11 03:56:09 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:09 AM org.apache.catalina.core.ApplicationContext log INFO: ContextListener: attributeAdded('org.apache.catalina.MBeanServer', 'mx4j.server.MX4JMBeanServer@46ac30') 
+Oct 11 03:56:10 metasploitable kernel: [   26.806647] eth0: no IPv6 routers present
+Oct 11 03:56:11 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:11 AM org.apache.catalina.core.ApplicationContext log INFO: org.apache.webapp.balancer.BalancerFilter: init(): ruleChain: [org.apache.webapp.balancer.RuleChain: [org.apache.webapp.balan
+Oct 11 03:56:11 metasploitable jsvc.exec[4553]: cer.rules.URLStringMatchRule: Target string: News / Redirect URL: http://www.cnn.com], [org.apache.webapp.balancer.rules.RequestParameterRule: Target param name: paramName / Target param value: paramV
+Oct 11 03:56:11 metasploitable jsvc.exec[4553]: alue / Redirect URL: http://www.yahoo.com], [org.apache.webapp.balancer.rules.AcceptEverythingRule: Redirect URL: http://jakarta.apache.org]] 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:13 AM org.apache.coyote.http11.Http11BaseProtocol start INFO: Starting Coyote HTTP/1.1 on http-8180 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:13 AM org.apache.commons.modeler.modules.MbeansDescriptorsDOMSource execute SEVERE: Error reading descriptors  gnu.xml.dom.ls.DomLSException    at gnu.xml.dom.ls.DomLSParser.doParse(lib
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: gcj.so.81)    at gnu.xml.dom.ls.DomLSParser.parse(libgcj.so.81)    at gnu.xml.dom.DomDocumentBuilder.parse(libgcj.so.81)    at org.apache.commons.modeler.util.DomUtil.readXml(DomUtil.java:257)    at o
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: rg.apache.commons.modeler.modules.MbeansDescriptorsDOMSource.execute(MbeansDescriptorsDOMSource.java:88)    at org.apache.commons.modeler.modules.MbeansDescriptorsDOMSource.loadDescriptors(MbeansDescr
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: iptorsDOMSource.java:78)    at org.apache.commons.modeler.Registry.load(Registry.java:792)    at org.apache.commons.modeler.Registry.loadDescriptors(Registry.java:901)    at org.apache.commons.modeler
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: .Registry.loadDescriptors(Registry.java:882)    at org.apache.commons.modeler.Registry.findDescriptor(Registry.java:961)    at org.apache.commons.modeler.Registry.findManagedBean(Registry.java:666)   
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]:  at org.apache.commons.modeler.Registry.findManagedBean(Registry.java:1015)    at org.apache.commons.modeler.Registry.registerComponent(Registry.java:832)    at org.apache.catalina.connector.Connector
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: .start(Connector.java:1077)    at org.apache.catalina.core.StandardService.start(StandardService.java:457)    at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)    at org.apache
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: .catalina.startup.Catalina.start(Catalina.java:552)    at java.lang.reflect.Method.invoke(libgcj.so.81)    at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)    at java.lang.reflect.Me
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: thod.invoke(libgcj.so.81)    at org.apache.commons.daemon.support.DaemonLoader.start(DaemonLoader.java:177) Caused by: org.xml.sax.SAXParseException    at gnu.xml.stream.SAXParser.parse(libgcj.so.81) 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]:    at gnu.xml.dom.ls.DomLSParser.doParse(libgcj.so.81)    ...20 more Caused by: javax.xml.stream.XMLStreamException    at gnu.xml.stream.XMLParser.next(libgcj.so.81)    at gnu.xml.stream.XMLParser.has
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: Next(libgcj.so.81)    at gnu.xml.stream.SAXParser.parse(libgcj.so.81)    ...21 more Caused by: java.io.IOException: error resolving http://jakarta.apache.org/commons/dtds/mbeans-descriptors.dtd    at 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: gnu.xml.stream.XMLParser.resolve(libgcj.so.81)    at gnu.xml.stream.XMLParser.pushInput(libgcj.so.81)    at gnu.xml.stream.XMLParser.readDoctypeDecl(libgcj.so.81)    at gnu.xml.stream.XMLParser.next(l
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: ibgcj.so.81)    ...23 more Caused by: java.net.UnknownHostException: jakarta.apache.org:80    at gnu.java.net.PlainSocketImpl.connect(libgcj.so.81)    at java.net.Socket.connect(libgcj.so.81)    at ja
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: va.net.Socket.connect(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPConnection.getSocket(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPConnection.getOutputStream(libgcj.so.81)    at gnu.java
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: .net.protocol.http.Request.dispatch(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPURLConnection.connect(libgcj.so.81)    at gnu.java.net.protocol.http.HTTPURLConnection.getInputStream(libgcj.so.8
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: 1)    at java.net.URL.openStream(libgcj.so.81)    at gnu.xml.stream.XMLParser.resolve(libgcj.so.81)    ...26 more 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:13 AM org.apache.jk.common.ChannelSocket init INFO: JK: ajp13 listening on /0.0.0.0:8009 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:13 AM org.apache.jk.server.JkMain start INFO: Jk running ID=0 time=0/120  config=null 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:13 AM org.apache.catalina.storeconfig.StoreLoader load INFO: Find registry server-registry.xml at classpath resource 
+Oct 11 03:56:13 metasploitable jsvc.exec[4553]: 11-Oct-26 3:56:13 AM org.apache.catalina.startup.Catalina start INFO: Server startup in 6127 ms 
+Oct 11 03:56:17 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 10
+Oct 11 03:56:27 metasploitable dhclient: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 14

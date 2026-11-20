@@ -1,0 +1,10 @@
+{
+  "case": "SYNTHETIC ONLY host and network correlation demo",
+  "mode": "SYNTHETIC DEMO",
+  "packets": 147,
+  "host_findings": 2,
+  "attacker_notes": 2,
+  "network_hypotheses": 2,
+  "candidate_links": 8,
+  "missing": []
+}
